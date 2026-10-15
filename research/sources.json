@@ -1,0 +1,1847 @@
+{
+  "study_date": "2026-10-16",
+  "date_context": "Asia/Hong_Kong; client date",
+  "selection": "Purposive sample across project types; not a ranking or a causal study.",
+  "sources": [
+    {
+      "repository": "fastapi/fastapi",
+      "category": "framework",
+      "branch_at_retrieval": "master",
+      "path": "README.md",
+      "commit": "0b919816378eaa773df7ce4204414c712c9fdbea",
+      "sha256": "e2a012418ad45efe15a3342ddf58f39d605ce7d65f497832b566ce010b41ad67",
+      "bytes": 22229,
+      "lines": 533,
+      "source_url": "https://github.com/fastapi/fastapi/blob/0b919816378eaa773df7ce4204414c712c9fdbea/README.md",
+      "raw_url": "https://raw.githubusercontent.com/fastapi/fastapi/0b919816378eaa773df7ce4204414c712c9fdbea/README.md",
+      "headings": [
+        {
+          "line": 45,
+          "title": "Sponsors"
+        },
+        {
+          "line": 48,
+          "title": "Keystone Sponsor"
+        },
+        {
+          "line": 52,
+          "title": "Gold Sponsors"
+        },
+        {
+          "line": 62,
+          "title": "Silver Sponsors"
+        },
+        {
+          "line": 74,
+          "title": "Opinions"
+        },
+        {
+          "line": 106,
+          "title": "FastAPI mini documentary"
+        },
+        {
+          "line": 112,
+          "title": "**Typer**, the FastAPI of CLIs"
+        },
+        {
+          "line": 120,
+          "title": "Requirements"
+        },
+        {
+          "line": 127,
+          "title": "Installation"
+        },
+        {
+          "line": 145,
+          "title": "Example"
+        },
+        {
+          "line": 147,
+          "title": "Create it"
+        },
+        {
+          "line": 194,
+          "title": "Run it"
+        },
+        {
+          "line": 236,
+          "title": "Check it"
+        },
+        {
+          "line": 253,
+          "title": "Interactive API docs"
+        },
+        {
+          "line": 261,
+          "title": "Alternative API docs"
+        },
+        {
+          "line": 269,
+          "title": "Example upgrade"
+        },
+        {
+          "line": 305,
+          "title": "Interactive API docs upgrade"
+        },
+        {
+          "line": 321,
+          "title": "Alternative API docs upgrade"
+        },
+        {
+          "line": 329,
+          "title": "Recap"
+        },
+        {
+          "line": 441,
+          "title": "Deploy your app (optional)"
+        },
+        {
+          "line": 463,
+          "title": "About FastAPI Cloud"
+        },
+        {
+          "line": 473,
+          "title": "Deploy to other cloud providers"
+        },
+        {
+          "line": 479,
+          "title": "Performance"
+        },
+        {
+          "line": 485,
+          "title": "Dependencies"
+        },
+        {
+          "line": 489,
+          "title": "`standard` Dependencies"
+        },
+        {
+          "line": 509,
+          "title": "Without `standard` Dependencies"
+        },
+        {
+          "line": 513,
+          "title": "Without `fastapi-cloud-cli`"
+        },
+        {
+          "line": 517,
+          "title": "Additional Optional Dependencies"
+        },
+        {
+          "line": 531,
+          "title": "License"
+        }
+      ]
+    },
+    {
+      "repository": "astral-sh/uv",
+      "category": "developer-tool",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "b8993e0a3b15f37e6b523bc5d02d2e7128713cad",
+      "sha256": "57a84a5a635f30e3a26541ebc16ca690944a7750f05713b1af92d3170b58f704",
+      "bytes": 9859,
+      "lines": 326,
+      "source_url": "https://github.com/astral-sh/uv/blob/b8993e0a3b15f37e6b523bc5d02d2e7128713cad/README.md",
+      "raw_url": "https://raw.githubusercontent.com/astral-sh/uv/b8993e0a3b15f37e6b523bc5d02d2e7128713cad/README.md",
+      "headings": [
+        {
+          "line": 1,
+          "title": "uv"
+        },
+        {
+          "line": 21,
+          "title": "Highlights"
+        },
+        {
+          "line": 44,
+          "title": "Installation"
+        },
+        {
+          "line": 79,
+          "title": "Documentation"
+        },
+        {
+          "line": 85,
+          "title": "Features"
+        },
+        {
+          "line": 87,
+          "title": "Projects"
+        },
+        {
+          "line": 123,
+          "title": "Scripts"
+        },
+        {
+          "line": 147,
+          "title": "Tools"
+        },
+        {
+          "line": 185,
+          "title": "Python versions"
+        },
+        {
+          "line": 225,
+          "title": "The pip interface"
+        },
+        {
+          "line": 268,
+          "title": "Contributing"
+        },
+        {
+          "line": 275,
+          "title": "FAQ"
+        },
+        {
+          "line": 277,
+          "title": "How do you pronounce uv?"
+        },
+        {
+          "line": 281,
+          "title": "How should I stylize uv?"
+        },
+        {
+          "line": 285,
+          "title": "What platforms does uv support?"
+        },
+        {
+          "line": 289,
+          "title": "Is uv ready for production?"
+        },
+        {
+          "line": 294,
+          "title": "Acknowledgements"
+        },
+        {
+          "line": 308,
+          "title": "License"
+        }
+      ]
+    },
+    {
+      "repository": "cli/cli",
+      "category": "cli",
+      "branch_at_retrieval": "trunk",
+      "path": "README.md",
+      "commit": "59e9f78eacdf2554f8534d166808c3e9b8c7ebcb",
+      "sha256": "5816da6f27253e6e5544e9c8d7b0f652e03200a0345fae1693e50d72fabb8cc4",
+      "bytes": 6284,
+      "lines": 122,
+      "source_url": "https://github.com/cli/cli/blob/59e9f78eacdf2554f8534d166808c3e9b8c7ebcb/README.md",
+      "raw_url": "https://raw.githubusercontent.com/cli/cli/59e9f78eacdf2554f8534d166808c3e9b8c7ebcb/README.md",
+      "headings": [
+        {
+          "line": 1,
+          "title": "GitHub CLI"
+        },
+        {
+          "line": 12,
+          "title": "Documentation"
+        },
+        {
+          "line": 16,
+          "title": "Agent skills"
+        },
+        {
+          "line": 28,
+          "title": "Contributing"
+        },
+        {
+          "line": 35,
+          "title": "Installation"
+        },
+        {
+          "line": 37,
+          "title": "[macOS](docs/install_macos.md)"
+        },
+        {
+          "line": 44,
+          "title": "[Linux & Unix](docs/install_linux.md)"
+        },
+        {
+          "line": 52,
+          "title": "[Windows](docs/install_windows.md)"
+        },
+        {
+          "line": 59,
+          "title": "Build from source"
+        },
+        {
+          "line": 63,
+          "title": "GitHub Codespaces"
+        },
+        {
+          "line": 73,
+          "title": "GitHub Actions"
+        },
+        {
+          "line": 81,
+          "title": "Verification of binaries"
+        },
+        {
+          "line": 115,
+          "title": "Comparison with hub"
+        }
+      ]
+    },
+    {
+      "repository": "ollama/ollama",
+      "category": "local-ai",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "d919272e53593d1d55d40e1180eaa06dfbede3ac",
+      "sha256": "9e5a7d406950fdd2742084065ab38a3ea09b5aab5e2f13ef7d64147229ae0d8b",
+      "bytes": 19347,
+      "lines": 357,
+      "source_url": "https://github.com/ollama/ollama/blob/d919272e53593d1d55d40e1180eaa06dfbede3ac/README.md",
+      "raw_url": "https://raw.githubusercontent.com/ollama/ollama/d919272e53593d1d55d40e1180eaa06dfbede3ac/README.md",
+      "headings": [
+        {
+          "line": 7,
+          "title": "Ollama"
+        },
+        {
+          "line": 11,
+          "title": "Download"
+        },
+        {
+          "line": 13,
+          "title": "macOS"
+        },
+        {
+          "line": 21,
+          "title": "Windows"
+        },
+        {
+          "line": 29,
+          "title": "Linux"
+        },
+        {
+          "line": 37,
+          "title": "Docker"
+        },
+        {
+          "line": 41,
+          "title": "Libraries"
+        },
+        {
+          "line": 46,
+          "title": "Community"
+        },
+        {
+          "line": 52,
+          "title": "Get started"
+        },
+        {
+          "line": 60,
+          "title": "Coding"
+        },
+        {
+          "line": 70,
+          "title": "AI assistant"
+        },
+        {
+          "line": 78,
+          "title": "Chat with a model"
+        },
+        {
+          "line": 90,
+          "title": "REST API"
+        },
+        {
+          "line": 107,
+          "title": "Python"
+        },
+        {
+          "line": 125,
+          "title": "JavaScript"
+        },
+        {
+          "line": 141,
+          "title": "Supported backends"
+        },
+        {
+          "line": 145,
+          "title": "Documentation"
+        },
+        {
+          "line": 153,
+          "title": "Community Integrations"
+        },
+        {
+          "line": 157,
+          "title": "Chat Interfaces"
+        },
+        {
+          "line": 159,
+          "title": "Web"
+        },
+        {
+          "line": 178,
+          "title": "Desktop"
+        },
+        {
+          "line": 205,
+          "title": "Mobile"
+        },
+        {
+          "line": 211,
+          "title": "Code Editors & Development"
+        },
+        {
+          "line": 230,
+          "title": "Libraries & SDKs"
+        },
+        {
+          "line": 262,
+          "title": "Frameworks & Agents"
+        },
+        {
+          "line": 273,
+          "title": "RAG & Knowledge Bases"
+        },
+        {
+          "line": 285,
+          "title": "Bots & Messaging"
+        },
+        {
+          "line": 293,
+          "title": "Terminal & CLI"
+        },
+        {
+          "line": 307,
+          "title": "Productivity & Apps"
+        },
+        {
+          "line": 324,
+          "title": "Observability & Monitoring"
+        },
+        {
+          "line": 333,
+          "title": "Database & Embeddings"
+        },
+        {
+          "line": 340,
+          "title": "Infrastructure & Deployment"
+        },
+        {
+          "line": 342,
+          "title": "Cloud"
+        },
+        {
+          "line": 349,
+          "title": "Package Managers"
+        }
+      ]
+    },
+    {
+      "repository": "facebook/react",
+      "category": "library",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "098d2e87a1f7142947418d15f63f975b58c4685b",
+      "sha256": "9b6ac13cb03c06ae5643376cebd8d0e6cbae7ec0dd30a5cdc443a93160c348eb",
+      "bytes": 5296,
+      "lines": 78,
+      "source_url": "https://github.com/facebook/react/blob/098d2e87a1f7142947418d15f63f975b58c4685b/README.md",
+      "raw_url": "https://raw.githubusercontent.com/facebook/react/098d2e87a1f7142947418d15f63f975b58c4685b/README.md",
+      "headings": [
+        {
+          "line": 1,
+          "title": "[React](https://react.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/react/react/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![(Runtime) Build and Test](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml/badge.svg)](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [![(Compiler) TypeScript](https://github.com/react/react/actions/workflows/compiler_typescript.yml/badge.svg?branch=main)](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)"
+        },
+        {
+          "line": 11,
+          "title": "Installation"
+        },
+        {
+          "line": 19,
+          "title": "Documentation"
+        },
+        {
+          "line": 41,
+          "title": "Examples"
+        },
+        {
+          "line": 60,
+          "title": "Contributing"
+        },
+        {
+          "line": 64,
+          "title": "[Code of Conduct](https://code.fb.com/codeofconduct)"
+        },
+        {
+          "line": 68,
+          "title": "[Contributing Guide](https://legacy.reactjs.org/docs/how-to-contribute.html)"
+        },
+        {
+          "line": 72,
+          "title": "[Good First Issues](https://github.com/react/react/labels/good%20first%20issue)"
+        },
+        {
+          "line": 76,
+          "title": "License"
+        }
+      ]
+    },
+    {
+      "repository": "vuejs/core",
+      "category": "framework",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+      "sha256": "1d5ea6d8b418d429c68d0f749ab07724c007a86beee996c401d2447d667f12c8",
+      "bytes": 2487,
+      "lines": 56,
+      "source_url": "https://github.com/vuejs/core/blob/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/README.md",
+      "raw_url": "https://raw.githubusercontent.com/vuejs/core/bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c/README.md",
+      "headings": [
+        {
+          "line": 1,
+          "title": "vuejs/core [![npm](https://img.shields.io/npm/v/vue.svg)](https://www.npmjs.com/package/vue) [![build status](https://github.com/vuejs/core/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vuejs/core/actions/workflows/ci.yml) [![Download](https://img.shields.io/npm/dm/vue)](https://www.npmjs.com/package/vue)"
+        },
+        {
+          "line": 3,
+          "title": "Getting Started"
+        },
+        {
+          "line": 7,
+          "title": "Sponsors"
+        },
+        {
+          "line": 27,
+          "title": "Questions"
+        },
+        {
+          "line": 31,
+          "title": "Issues"
+        },
+        {
+          "line": 35,
+          "title": "Stay In Touch"
+        },
+        {
+          "line": 42,
+          "title": "Contribution"
+        },
+        {
+          "line": 52,
+          "title": "License"
+        }
+      ]
+    },
+    {
+      "repository": "vitejs/vite",
+      "category": "build-tool",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "928e721b36690ac0f3f118290a21fc0cc4349055",
+      "sha256": "588718673f32a3691b8e75b93fb4c2f8e8bc9a6dc0bf61794ba7b6c006594111",
+      "bytes": 3416,
+      "lines": 66,
+      "source_url": "https://github.com/vitejs/vite/blob/928e721b36690ac0f3f118290a21fc0cc4349055/README.md",
+      "raw_url": "https://raw.githubusercontent.com/vitejs/vite/928e721b36690ac0f3f118290a21fc0cc4349055/README.md",
+      "headings": [
+        {
+          "line": 23,
+          "title": "Vite ⚡"
+        },
+        {
+          "line": 44,
+          "title": "Packages"
+        },
+        {
+          "line": 52,
+          "title": "Contribution"
+        },
+        {
+          "line": 56,
+          "title": "License"
+        },
+        {
+          "line": 60,
+          "title": "Sponsors"
+        }
+      ]
+    },
+    {
+      "repository": "denoland/deno",
+      "category": "runtime",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "a18ce33715e30cd2b0d99c7e322ef11a65490e4d",
+      "sha256": "83a959d62dea940f94ce1b50024928e34afb447de35197b7ea1d944fd6dbbcf7",
+      "bytes": 3807,
+      "lines": 116,
+      "source_url": "https://github.com/denoland/deno/blob/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/README.md",
+      "raw_url": "https://raw.githubusercontent.com/denoland/deno/a18ce33715e30cd2b0d99c7e322ef11a65490e4d/README.md",
+      "headings": [
+        {
+          "line": 1,
+          "title": "Deno"
+        },
+        {
+          "line": 18,
+          "title": "Installation"
+        },
+        {
+          "line": 62,
+          "title": "Build and install from source"
+        },
+        {
+          "line": 67,
+          "title": "Your first Deno program"
+        },
+        {
+          "line": 91,
+          "title": "Additional resources"
+        },
+        {
+          "line": 102,
+          "title": "Contributing"
+        }
+      ]
+    },
+    {
+      "repository": "supabase/supabase",
+      "category": "platform",
+      "branch_at_retrieval": "master",
+      "path": "README.md",
+      "commit": "991653aa36a727f009f72d75fc2388c135b4d242",
+      "sha256": "c1a23ddcd6f67625de1bdad0be99dccf59e80c9e772e52a5c855072e783c15d4",
+      "bytes": 16831,
+      "lines": 288,
+      "source_url": "https://github.com/supabase/supabase/blob/991653aa36a727f009f72d75fc2388c135b4d242/README.md",
+      "raw_url": "https://raw.githubusercontent.com/supabase/supabase/991653aa36a727f009f72d75fc2388c135b4d242/README.md",
+      "headings": [
+        {
+          "line": 6,
+          "title": "Supabase"
+        },
+        {
+          "line": 29,
+          "title": "Documentation"
+        },
+        {
+          "line": 35,
+          "title": "Community & Support"
+        },
+        {
+          "line": 42,
+          "title": "How it works"
+        },
+        {
+          "line": 62,
+          "title": "Client libraries"
+        },
+        {
+          "line": 204,
+          "title": "Badges"
+        },
+        {
+          "line": 240,
+          "title": "Translations"
+        }
+      ]
+    },
+    {
+      "repository": "rustdesk/rustdesk",
+      "category": "desktop",
+      "branch_at_retrieval": "master",
+      "path": "README.md",
+      "commit": "e400bb75546cebf4f72a5ef3cf6e4a3efa2c3aa7",
+      "sha256": "ab807f3979b010903e7b72d42d6612935e70fcc1b8c8392a7bb7c47b979ba2b0",
+      "bytes": 9916,
+      "lines": 182,
+      "source_url": "https://github.com/rustdesk/rustdesk/blob/e400bb75546cebf4f72a5ef3cf6e4a3efa2c3aa7/README.md",
+      "raw_url": "https://raw.githubusercontent.com/rustdesk/rustdesk/e400bb75546cebf4f72a5ef3cf6e4a3efa2c3aa7/README.md",
+      "headings": [
+        {
+          "line": 39,
+          "title": "Dependencies"
+        },
+        {
+          "line": 49,
+          "title": "Raw Steps to build"
+        },
+        {
+          "line": 60,
+          "title": "[Build](https://rustdesk.com/docs/en/dev/build/)"
+        },
+        {
+          "line": 62,
+          "title": "How to Build on Linux"
+        },
+        {
+          "line": 64,
+          "title": "Ubuntu 18 (Debian 10)"
+        },
+        {
+          "line": 72,
+          "title": "openSUSE Tumbleweed"
+        },
+        {
+          "line": 78,
+          "title": "Fedora 28 (CentOS 8)"
+        },
+        {
+          "line": 84,
+          "title": "Arch (Manjaro)"
+        },
+        {
+          "line": 90,
+          "title": "Install vcpkg"
+        },
+        {
+          "line": 102,
+          "title": "Fix libvpx (For Fedora)"
+        },
+        {
+          "line": 115,
+          "title": "Build"
+        },
+        {
+          "line": 128,
+          "title": "How to build with Docker"
+        },
+        {
+          "line": 159,
+          "title": "File Structure"
+        },
+        {
+          "line": 173,
+          "title": "Screenshots"
+        }
+      ]
+    },
+    {
+      "repository": "pytorch/pytorch",
+      "category": "ml-framework",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "88ea2d6a53c70dc7d7669ced28a93f112daaa6a7",
+      "sha256": "c839137f1d406e0ba4f641222471a5cbfabb2141b39491f7267f57cf5e2107b9",
+      "bytes": 23629,
+      "lines": 485,
+      "source_url": "https://github.com/pytorch/pytorch/blob/88ea2d6a53c70dc7d7669ced28a93f112daaa6a7/README.md",
+      "raw_url": "https://raw.githubusercontent.com/pytorch/pytorch/88ea2d6a53c70dc7d7669ced28a93f112daaa6a7/README.md",
+      "headings": [
+        {
+          "line": 51,
+          "title": "More About PyTorch"
+        },
+        {
+          "line": 72,
+          "title": "A GPU-Ready Tensor Library"
+        },
+        {
+          "line": 85,
+          "title": "Dynamic Neural Networks: Tape-Based Autograd"
+        },
+        {
+          "line": 105,
+          "title": "Python First"
+        },
+        {
+          "line": 114,
+          "title": "Imperative Experiences"
+        },
+        {
+          "line": 122,
+          "title": "Fast and Lean"
+        },
+        {
+          "line": 136,
+          "title": "Extensions Without Pain"
+        },
+        {
+          "line": 148,
+          "title": "Installation"
+        },
+        {
+          "line": 150,
+          "title": "Binaries"
+        },
+        {
+          "line": 154,
+          "title": "NVIDIA Jetson Platforms"
+        },
+        {
+          "line": 161,
+          "title": "From Source"
+        },
+        {
+          "line": 163,
+          "title": "Prerequisites"
+        },
+        {
+          "line": 232,
+          "title": "Get the PyTorch Source"
+        },
+        {
+          "line": 242,
+          "title": "Install Dependencies"
+        },
+        {
+          "line": 274,
+          "title": "Install PyTorch"
+        },
+        {
+          "line": 404,
+          "title": "Docker Image"
+        },
+        {
+          "line": 406,
+          "title": "Using pre-built images"
+        },
+        {
+          "line": 418,
+          "title": "Building the image yourself"
+        },
+        {
+          "line": 438,
+          "title": "Previous Versions"
+        },
+        {
+          "line": 444,
+          "title": "Getting Started"
+        },
+        {
+          "line": 452,
+          "title": "Resources"
+        },
+        {
+          "line": 465,
+          "title": "Communication"
+        },
+        {
+          "line": 472,
+          "title": "Releases and Contributing"
+        },
+        {
+          "line": 477,
+          "title": "The Team"
+        },
+        {
+          "line": 483,
+          "title": "License"
+        }
+      ]
+    },
+    {
+      "repository": "huggingface/transformers",
+      "category": "ml-library",
+      "branch_at_retrieval": "main",
+      "path": "README.md",
+      "commit": "b0cdc61e607f39403e248b11c35aef4edfa7d216",
+      "sha256": "2a177841823df1ce1ad7ec068f07809eeb39d8db336ecab0fec259ddaf488ecb",
+      "bytes": 16952,
+      "lines": 338,
+      "source_url": "https://github.com/huggingface/transformers/blob/b0cdc61e607f39403e248b11c35aef4edfa7d216/README.md",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/transformers/b0cdc61e607f39403e248b11c35aef4edfa7d216/README.md",
+      "headings": [
+        {
+          "line": 85,
+          "title": "Installation"
+        },
+        {
+          "line": 123,
+          "title": "Quickstart"
+        },
+        {
+          "line": 217,
+          "title": "Why should I use Transformers?"
+        },
+        {
+          "line": 244,
+          "title": "When shouldn't I use Transformers?"
+        },
+        {
+          "line": 249,
+          "title": "100 projects using Transformers"
+        },
+        {
+          "line": 261,
+          "title": "Example models"
+        },
+        {
+          "line": 323,
+          "title": "Citation"
+        }
+      ]
+    },
+    {
+      "repository": "BurntSushi/ripgrep",
+      "category": "cli",
+      "branch_at_retrieval": "master",
+      "path": "README.md",
+      "commit": "3fce3b5bb0236da2df6d99672afb8a719642eca7",
+      "sha256": "945622d974f65e4e141ef9726c948c2640eebd222c5b101afb6445728283921e",
+      "bytes": 21599,
+      "lines": 541,
+      "source_url": "https://github.com/BurntSushi/ripgrep/blob/3fce3b5bb0236da2df6d99672afb8a719642eca7/README.md",
+      "raw_url": "https://raw.githubusercontent.com/BurntSushi/ripgrep/3fce3b5bb0236da2df6d99672afb8a719642eca7/README.md",
+      "headings": [
+        {
+          "line": 18,
+          "title": "CHANGELOG"
+        },
+        {
+          "line": 22,
+          "title": "Documentation quick links"
+        },
+        {
+          "line": 34,
+          "title": "Screenshot of search results"
+        },
+        {
+          "line": 39,
+          "title": "Quick examples comparing tools"
+        },
+        {
+          "line": 116,
+          "title": "Why should I use ripgrep?"
+        },
+        {
+          "line": 161,
+          "title": "Why shouldn't I use ripgrep?"
+        },
+        {
+          "line": 183,
+          "title": "Is it really faster than everything else?"
+        },
+        {
+          "line": 211,
+          "title": "Feature comparison"
+        },
+        {
+          "line": 223,
+          "title": "Playground"
+        },
+        {
+          "line": 233,
+          "title": "Installation"
+        },
+        {
+          "line": 451,
+          "title": "Building"
+        },
+        {
+          "line": 507,
+          "title": "Running tests"
+        },
+        {
+          "line": 519,
+          "title": "Related tools"
+        },
+        {
+          "line": 527,
+          "title": "Vulnerability reporting"
+        },
+        {
+          "line": 535,
+          "title": "Translations"
+        }
+      ]
+    },
+    {
+      "repository": "junegunn/fzf",
+      "category": "cli",
+      "branch_at_retrieval": "master",
+      "path": "README.md",
+      "commit": "c8c2d0828a94a00879ceb6f95112a42e3ea322cf",
+      "sha256": "cf04eefdc64236aeb99de2208e17fc43271bee9da798aa639f45baeae84f987c",
+      "bytes": 41829,
+      "lines": 1153,
+      "source_url": "https://github.com/junegunn/fzf/blob/c8c2d0828a94a00879ceb6f95112a42e3ea322cf/README.md",
+      "raw_url": "https://raw.githubusercontent.com/junegunn/fzf/c8c2d0828a94a00879ceb6f95112a42e3ea322cf/README.md",
+      "headings": [
+        {
+          "line": 111,
+          "title": "Using Homebrew"
+        },
+        {
+          "line": 127,
+          "title": "Using Mise"
+        },
+        {
+          "line": 135,
+          "title": "Linux packages"
+        },
+        {
+          "line": 159,
+          "title": "Windows packages"
+        },
+        {
+          "line": 176,
+          "title": "Using git"
+        },
+        {
+          "line": 189,
+          "title": "Binary releases"
+        },
+        {
+          "line": 195,
+          "title": "Setting up shell integration"
+        },
+        {
+          "line": 244,
+          "title": "Vim/Neovim plugin"
+        },
+        {
+          "line": 322,
+          "title": "Using the finder"
+        },
+        {
+          "line": 331,
+          "title": "Display modes"
+        },
+        {
+          "line": 335,
+          "title": "`--height` mode"
+        },
+        {
+          "line": 364,
+          "title": "`--popup` mode"
+        },
+        {
+          "line": 397,
+          "title": "Search syntax"
+        },
+        {
+          "line": 426,
+          "title": "Environment variables"
+        },
+        {
+          "line": 450,
+          "title": "Customizing the look"
+        },
+        {
+          "line": 497,
+          "title": "Options"
+        },
+        {
+          "line": 501,
+          "title": "Demo"
+        },
+        {
+          "line": 591,
+          "title": "Files and directories"
+        },
+        {
+          "line": 620,
+          "title": "Process IDs"
+        },
+        {
+          "line": 629,
+          "title": "Host names"
+        },
+        {
+          "line": 638,
+          "title": "Environment variables / Aliases"
+        },
+        {
+          "line": 650,
+          "title": "Customizing fuzzy completion for bash and zsh"
+        },
+        {
+          "line": 652,
+          "title": "Customizing fzf options for completion"
+        },
+        {
+          "line": 683,
+          "title": "Customizing completion source for paths and directories"
+        },
+        {
+          "line": 699,
+          "title": "Supported commands (bash)"
+        },
+        {
+          "line": 711,
+          "title": "Custom fuzzy completion"
+        },
+        {
+          "line": 761,
+          "title": "Fuzzy completion for fish"
+        },
+        {
+          "line": 838,
+          "title": "Fuzzy completion for Nushell"
+        },
+        {
+          "line": 877,
+          "title": "Customizing for different types of input"
+        },
+        {
+          "line": 893,
+          "title": "Performance"
+        },
+        {
+          "line": 907,
+          "title": "Executing external programs"
+        },
+        {
+          "line": 920,
+          "title": "Turning into a different process"
+        },
+        {
+          "line": 961,
+          "title": "Reloading the candidate list"
+        },
+        {
+          "line": 967,
+          "title": "1. Update the list of processes by pressing CTRL-R"
+        },
+        {
+          "line": 976,
+          "title": "2. Switch between sources by pressing CTRL-D or CTRL-F"
+        },
+        {
+          "line": 984,
+          "title": "3. Interactive ripgrep integration"
+        },
+        {
+          "line": 1008,
+          "title": "Preview window"
+        },
+        {
+          "line": 1060,
+          "title": "Previewing an image"
+        },
+        {
+          "line": 1077,
+          "title": "Respecting `.gitignore`"
+        },
+        {
+          "line": 1105,
+          "title": "Fish shell"
+        },
+        {
+          "line": 1125,
+          "title": "fzf Theme Playground"
+        }
+      ]
+    },
+    {
+      "repository": "sindresorhus/awesome",
+      "category": "curated-list",
+      "branch_at_retrieval": "main",
+      "path": "readme.md",
+      "commit": "bc98e517ddca672f55f9857d714fc3ea3c3540b2",
+      "sha256": "465cd781335e44587d238f666800104b63d4fc8ba2395d6422974dcba421c616",
+      "bytes": 78330,
+      "lines": 866,
+      "source_url": "https://github.com/sindresorhus/awesome/blob/bc98e517ddca672f55f9857d714fc3ea3c3540b2/readme.md",
+      "raw_url": "https://raw.githubusercontent.com/sindresorhus/awesome/bc98e517ddca672f55f9857d714fc3ea3c3540b2/readme.md",
+      "headings": [
+        {
+          "line": 67,
+          "title": "Contents"
+        },
+        {
+          "line": 97,
+          "title": "Platforms"
+        },
+        {
+          "line": 157,
+          "title": "Programming Languages"
+        },
+        {
+          "line": 249,
+          "title": "Front-End Development"
+        },
+        {
+          "line": 337,
+          "title": "Back-End Development"
+        },
+        {
+          "line": 372,
+          "title": "Computer Science"
+        },
+        {
+          "line": 413,
+          "title": "Big Data"
+        },
+        {
+          "line": 425,
+          "title": "Theory"
+        },
+        {
+          "line": 442,
+          "title": "Books"
+        },
+        {
+          "line": 451,
+          "title": "Editors"
+        },
+        {
+          "line": 459,
+          "title": "Gaming"
+        },
+        {
+          "line": 490,
+          "title": "Development Environment"
+        },
+        {
+          "line": 514,
+          "title": "Entertainment"
+        },
+        {
+          "line": 522,
+          "title": "Databases"
+        },
+        {
+          "line": 542,
+          "title": "Media"
+        },
+        {
+          "line": 559,
+          "title": "Learn"
+        },
+        {
+          "line": 577,
+          "title": "Security"
+        },
+        {
+          "line": 609,
+          "title": "Content Management Systems"
+        },
+        {
+          "line": 623,
+          "title": "Hardware"
+        },
+        {
+          "line": 637,
+          "title": "Business"
+        },
+        {
+          "line": 652,
+          "title": "Work"
+        },
+        {
+          "line": 662,
+          "title": "Networking"
+        },
+        {
+          "line": 670,
+          "title": "Decentralized Systems"
+        },
+        {
+          "line": 690,
+          "title": "Health and Social Science"
+        },
+        {
+          "line": 705,
+          "title": "Events"
+        },
+        {
+          "line": 711,
+          "title": "Testing"
+        },
+        {
+          "line": 725,
+          "title": "Miscellaneous"
+        },
+        {
+          "line": 860,
+          "title": "Related"
+        }
+      ]
+    },
+    {
+      "repository": "donnemartin/system-design-primer",
+      "category": "learning-resource",
+      "branch_at_retrieval": "master",
+      "path": "README.md",
+      "commit": "ae9bbd7b02d90b9866215de185217d33f39ab733",
+      "sha256": "390a8cad315d703c10cfbdf6832c2f320882bd4c3feaf2cea78c820995903cf1",
+      "bytes": 109830,
+      "lines": 1839,
+      "source_url": "https://github.com/donnemartin/system-design-primer/blob/ae9bbd7b02d90b9866215de185217d33f39ab733/README.md",
+      "raw_url": "https://raw.githubusercontent.com/donnemartin/system-design-primer/ae9bbd7b02d90b9866215de185217d33f39ab733/README.md",
+      "headings": [
+        {
+          "line": 5,
+          "title": "The System Design Primer"
+        },
+        {
+          "line": 12,
+          "title": "Motivation"
+        },
+        {
+          "line": 18,
+          "title": "Learn how to design large-scale systems"
+        },
+        {
+          "line": 26,
+          "title": "Learn from the open source community"
+        },
+        {
+          "line": 32,
+          "title": "Prep for the system design interview"
+        },
+        {
+          "line": 46,
+          "title": "Anki flashcards"
+        },
+        {
+          "line": 61,
+          "title": "Coding Resource: Interactive Coding Challenges"
+        },
+        {
+          "line": 74,
+          "title": "Contributing"
+        },
+        {
+          "line": 89,
+          "title": "Index of system design topics"
+        },
+        {
+          "line": 182,
+          "title": "Study guide"
+        },
+        {
+          "line": 218,
+          "title": "How to approach a system design interview question"
+        },
+        {
+          "line": 226,
+          "title": "Step 1: Outline use cases, constraints, and assumptions"
+        },
+        {
+          "line": 239,
+          "title": "Step 2: Create a high level design"
+        },
+        {
+          "line": 246,
+          "title": "Step 3: Design core components"
+        },
+        {
+          "line": 259,
+          "title": "Step 4: Scale the design"
+        },
+        {
+          "line": 270,
+          "title": "Back-of-the-envelope calculations"
+        },
+        {
+          "line": 278,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 287,
+          "title": "System design interview questions with solutions"
+        },
+        {
+          "line": 305,
+          "title": "Design Pastebin.com (or Bit.ly)"
+        },
+        {
+          "line": 311,
+          "title": "Design the Twitter timeline and search (or Facebook feed and search)"
+        },
+        {
+          "line": 317,
+          "title": "Design a web crawler"
+        },
+        {
+          "line": 323,
+          "title": "Design Mint.com"
+        },
+        {
+          "line": 329,
+          "title": "Design the data structures for a social network"
+        },
+        {
+          "line": 335,
+          "title": "Design a key-value store for a search engine"
+        },
+        {
+          "line": 341,
+          "title": "Design Amazon's sales ranking by category feature"
+        },
+        {
+          "line": 347,
+          "title": "Design a system that scales to millions of users on AWS"
+        },
+        {
+          "line": 353,
+          "title": "Object-oriented design interview questions with solutions"
+        },
+        {
+          "line": 372,
+          "title": "System design topics: start here"
+        },
+        {
+          "line": 378,
+          "title": "Step 1: Review the scalability video lecture"
+        },
+        {
+          "line": 390,
+          "title": "Step 2: Review the scalability article"
+        },
+        {
+          "line": 400,
+          "title": "Next steps"
+        },
+        {
+          "line": 412,
+          "title": "Performance vs scalability"
+        },
+        {
+          "line": 421,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 426,
+          "title": "Latency vs throughput"
+        },
+        {
+          "line": 434,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 438,
+          "title": "Availability vs consistency"
+        },
+        {
+          "line": 440,
+          "title": "CAP theorem"
+        },
+        {
+          "line": 456,
+          "title": "CP - consistency and partition tolerance"
+        },
+        {
+          "line": 460,
+          "title": "AP - availability and partition tolerance"
+        },
+        {
+          "line": 466,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 473,
+          "title": "Consistency patterns"
+        },
+        {
+          "line": 477,
+          "title": "Weak consistency"
+        },
+        {
+          "line": 483,
+          "title": "Eventual consistency"
+        },
+        {
+          "line": 489,
+          "title": "Strong consistency"
+        },
+        {
+          "line": 495,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 499,
+          "title": "Availability patterns"
+        },
+        {
+          "line": 503,
+          "title": "Fail-over"
+        },
+        {
+          "line": 505,
+          "title": "Active-passive"
+        },
+        {
+          "line": 513,
+          "title": "Active-active"
+        },
+        {
+          "line": 521,
+          "title": "Disadvantage(s): failover"
+        },
+        {
+          "line": 526,
+          "title": "Replication"
+        },
+        {
+          "line": 528,
+          "title": "Master-slave and master-master"
+        },
+        {
+          "line": 535,
+          "title": "Availability in numbers"
+        },
+        {
+          "line": 539,
+          "title": "99.9% availability - three 9s"
+        },
+        {
+          "line": 548,
+          "title": "99.99% availability - four 9s"
+        },
+        {
+          "line": 557,
+          "title": "Availability in parallel vs in sequence"
+        },
+        {
+          "line": 581,
+          "title": "Domain name system"
+        },
+        {
+          "line": 607,
+          "title": "Disadvantage(s): DNS"
+        },
+        {
+          "line": 613,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 619,
+          "title": "Content delivery network"
+        },
+        {
+          "line": 634,
+          "title": "Push CDNs"
+        },
+        {
+          "line": 640,
+          "title": "Pull CDNs"
+        },
+        {
+          "line": 648,
+          "title": "Disadvantage(s): CDN"
+        },
+        {
+          "line": 654,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 660,
+          "title": "Load balancer"
+        },
+        {
+          "line": 693,
+          "title": "Layer 4 load balancing"
+        },
+        {
+          "line": 697,
+          "title": "Layer 7 load balancing"
+        },
+        {
+          "line": 703,
+          "title": "Horizontal scaling"
+        },
+        {
+          "line": 707,
+          "title": "Disadvantage(s): horizontal scaling"
+        },
+        {
+          "line": 714,
+          "title": "Disadvantage(s): load balancer"
+        },
+        {
+          "line": 720,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 730,
+          "title": "Reverse proxy (web server)"
+        },
+        {
+          "line": 755,
+          "title": "Load balancer vs reverse proxy"
+        },
+        {
+          "line": 761,
+          "title": "Disadvantage(s): reverse proxy"
+        },
+        {
+          "line": 766,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 773,
+          "title": "Application layer"
+        },
+        {
+          "line": 785,
+          "title": "Microservices"
+        },
+        {
+          "line": 791,
+          "title": "Service Discovery"
+        },
+        {
+          "line": 795,
+          "title": "Disadvantage(s): application layer"
+        },
+        {
+          "line": 800,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 808,
+          "title": "Database"
+        },
+        {
+          "line": 816,
+          "title": "Relational database management system (RDBMS)"
+        },
+        {
+          "line": 829,
+          "title": "Master-slave replication"
+        },
+        {
+          "line": 844,
+          "title": "Master-master replication"
+        },
+        {
+          "line": 874,
+          "title": "Federation"
+        },
+        {
+          "line": 895,
+          "title": "Sharding"
+        },
+        {
+          "line": 923,
+          "title": "Denormalization"
+        },
+        {
+          "line": 941,
+          "title": "SQL tuning"
+        },
+        {
+          "line": 991,
+          "title": "NoSQL"
+        },
+        {
+          "line": 1003,
+          "title": "Key-value store"
+        },
+        {
+          "line": 1020,
+          "title": "Document store"
+        },
+        {
+          "line": 1039,
+          "title": "Wide column store"
+        },
+        {
+          "line": 1062,
+          "title": "Graph database"
+        },
+        {
+          "line": 1082,
+          "title": "Source(s) and further reading: NoSQL"
+        },
+        {
+          "line": 1090,
+          "title": "SQL or NoSQL"
+        },
+        {
+          "line": 1132,
+          "title": "Cache"
+        },
+        {
+          "line": 1144,
+          "title": "Client caching"
+        },
+        {
+          "line": 1148,
+          "title": "CDN caching"
+        },
+        {
+          "line": 1152,
+          "title": "Web server caching"
+        },
+        {
+          "line": 1156,
+          "title": "Database caching"
+        },
+        {
+          "line": 1160,
+          "title": "Application caching"
+        },
+        {
+          "line": 1178,
+          "title": "Caching at the database query level"
+        },
+        {
+          "line": 1185,
+          "title": "Caching at the object level"
+        },
+        {
+          "line": 1199,
+          "title": "When to update the cache"
+        },
+        {
+          "line": 1203,
+          "title": "Cache-aside"
+        },
+        {
+          "line": 1239,
+          "title": "Write-through"
+        },
+        {
+          "line": 1274,
+          "title": "Write-behind (write-back)"
+        },
+        {
+          "line": 1292,
+          "title": "Refresh-ahead"
+        },
+        {
+          "line": 1308,
+          "title": "Disadvantage(s): cache"
+        },
+        {
+          "line": 1314,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 1324,
+          "title": "Asynchronism"
+        },
+        {
+          "line": 1334,
+          "title": "Message queues"
+        },
+        {
+          "line": 1349,
+          "title": "Task queues"
+        },
+        {
+          "line": 1355,
+          "title": "Back pressure"
+        },
+        {
+          "line": 1359,
+          "title": "Disadvantage(s): asynchronism"
+        },
+        {
+          "line": 1363,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 1370,
+          "title": "Communication"
+        },
+        {
+          "line": 1378,
+          "title": "Hypertext transfer protocol (HTTP)"
+        },
+        {
+          "line": 1396,
+          "title": "Source(s) and further reading: HTTP"
+        },
+        {
+          "line": 1402,
+          "title": "Transmission control protocol (TCP)"
+        },
+        {
+          "line": 1426,
+          "title": "User datagram protocol (UDP)"
+        },
+        {
+          "line": 1446,
+          "title": "Source(s) and further reading: TCP and UDP"
+        },
+        {
+          "line": 1455,
+          "title": "Remote procedure call (RPC)"
+        },
+        {
+          "line": 1497,
+          "title": "Disadvantage(s): RPC"
+        },
+        {
+          "line": 1504,
+          "title": "Representational state transfer (REST)"
+        },
+        {
+          "line": 1526,
+          "title": "Disadvantage(s): REST"
+        },
+        {
+          "line": 1533,
+          "title": "RPC and REST calls comparison"
+        },
+        {
+          "line": 1549,
+          "title": "Source(s) and further reading: REST and RPC"
+        },
+        {
+          "line": 1560,
+          "title": "Security"
+        },
+        {
+          "line": 1571,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 1577,
+          "title": "Appendix"
+        },
+        {
+          "line": 1581,
+          "title": "Powers of two table"
+        },
+        {
+          "line": 1596,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 1600,
+          "title": "Latency numbers every programmer should know"
+        },
+        {
+          "line": 1637,
+          "title": "Latency numbers visualized"
+        },
+        {
+          "line": 1641,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 1648,
+          "title": "Additional system design interview questions"
+        },
+        {
+          "line": 1679,
+          "title": "Real world architectures"
+        },
+        {
+          "line": 1719,
+          "title": "Company architectures"
+        },
+        {
+          "line": 1747,
+          "title": "Company engineering blogs"
+        },
+        {
+          "line": 1794,
+          "title": "Source(s) and further reading"
+        },
+        {
+          "line": 1800,
+          "title": "Under development"
+        },
+        {
+          "line": 1809,
+          "title": "Credits"
+        },
+        {
+          "line": 1825,
+          "title": "Contact info"
+        },
+        {
+          "line": 1831,
+          "title": "License"
+        }
+      ]
+    }
+  ]
+}

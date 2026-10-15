@@ -1,0 +1,94 @@
+# README Atlas
+
+**Give every project a clear path from first glance to first use.**
+
+A reusable agent skill for writing, improving, and reviewing repository READMEs. It turns observations from **16 open-source projects** into project-specific writing decisions: a library needs an input/output example, a platform needs deployment choices, and a learning resource needs a starting route.
+
+[简体中文](README.zh-CN.md) · [Skill instructions](skills/readme-atlas/SKILL.md) · [Source study](skills/readme-atlas/references/source-study.md)
+
+## Install in Codex
+
+Clone this repository, then copy the **complete** `skills/readme-atlas` folder into your user skill directory. Git is needed for cloning; no Python package, API key, or runtime dependency is needed to use the skill. If that skill directory already exists, review it before replacing it.
+
+**macOS / Linux (Bash):**
+
+```bash
+git clone https://github.com/chromoany/readme-atlas.git
+cd readme-atlas
+mkdir -p "$HOME/.agents/skills"
+cp -R skills/readme-atlas "$HOME/.agents/skills/"
+```
+
+**Windows (PowerShell):**
+
+```powershell
+git clone https://github.com/chromoany/readme-atlas.git
+Set-Location readme-atlas
+New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
+Copy-Item -Recurse .\skills\readme-atlas "$HOME\.agents\skills\"
+```
+
+For a repository-scoped installation, copy the folder to that project's `.agents/skills/readme-atlas` instead. These are [Codex's documented skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills). If the skill does not appear, restart Codex.
+
+## First use
+
+Open the project whose README you want to work on in Codex and send:
+
+```text
+Use $readme-atlas to inspect this repository and write README.md.
+Target readers: developers trying the project for the first time.
+Use repository evidence for every command and feature claim.
+```
+
+The expected artifact is a project-specific `README.md`, plus a short note describing what was checked and any unresolved facts. The skill asks the agent to inspect the repository before writing; it does not generate a fixed set of headings.
+
+Other requests:
+
+```text
+Use $readme-atlas to improve our existing README. Keep useful anchors
+and focus on making the first-run instructions complete.
+```
+
+```text
+Use $readme-atlas to review README.md without editing it.
+Prioritize issues that would prevent a new user from getting started.
+```
+
+```text
+使用 $readme-atlas，根据仓库实际内容编写中文 README。
+保留真实命令，说明运行后应该看到什么，不要编造功能或性能数据。
+```
+
+## What the skill does
+
+| Decision | How README Atlas approaches it |
+| --- | --- |
+| What to say | Inspect manifests, interfaces, examples, tests, docs, and licensing |
+| What to show first | Choose the intended reader's smallest useful result |
+| How to organize it | Adapt to libraries, CLIs, applications, platforms, ML, resources, or skills |
+| What to leave out | Remove unsupported claims and sections with no reader purpose |
+| How to verify it | Trace commands, check links, and run an appropriate smoke path when practical |
+
+The skill is instruction-only, with optional references loaded as needed. Codex UI metadata is included. Other agents can read the Markdown instructions, but their installation and invocation behavior has not been verified here.
+
+## What we learned
+
+The sample includes React, Vue, Vite, FastAPI, uv, GitHub CLI, Deno, Ollama, Supabase, RustDesk, PyTorch, Transformers, ripgrep, fzf, Awesome, and System Design Primer.
+
+Our synthesis is to organize around the reader's next decision, preserve one complete first-use route where appropriate, and keep every promise tied to evidence. Short documentation gateways and long learning resources can both work; their audiences need different things.
+
+Read the [per-project observations and transfer limits](skills/readme-atlas/references/source-study.md). Every sampled README is linked at a pinned commit, with retrieval metadata and a SHA-256 digest in [the research manifest](research/sources.json). This is a qualitative sample, not evidence that a layout causes popularity or adoption.
+
+## Explore and contribute
+
+- [Reader journeys and adaptable outlines](skills/readme-atlas/references/patterns.md)
+- [Review checklist](skills/readme-atlas/references/review-checklist.md)
+- [Worked example](examples/cli-rewrite.md)
+- [Research method and source verification](research/README.md)
+- [Contribution guide](CONTRIBUTING.md)
+
+For a problem or proposed improvement, [open an issue](https://github.com/chromoany/readme-atlas/issues) with the affected file and a concrete example.
+
+## License
+
+[MIT](LICENSE) for this repository's original instructions, analysis, examples, and tooling. Referenced projects retain their own licenses. This repository links to their READMEs rather than redistributing them.

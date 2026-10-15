@@ -1,0 +1,84 @@
+---
+name: readme-atlas
+description: Write, improve, or review repository READMEs using project evidence and patterns studied across open-source projects. Use for README creation, onboarding improvements, project positioning, and README translation; adapt to libraries, CLIs, applications, platforms, research, and curated resources.
+---
+
+# README Atlas
+
+Help the intended reader decide whether a project fits and reach a useful first result. Choose the structure from the project's actual distribution and audience. A popular project's README is evidence of one editorial choice, not a universal template.
+
+## Choose the task
+
+- **Create:** inspect the project, choose a reader journey, and write the requested README.
+- **Improve:** preserve correct information, useful anchors, and the project's voice; fix the reader's actual obstacles. Avoid a full rewrite for a narrow edit.
+- **Review:** report concrete problems with evidence and proposed fixes. Do not edit unless requested.
+- **Translate:** preserve commands, identifiers, URLs, requirements, and feature status. Keep language files mutually discoverable and flag factual drift separately from translation.
+
+Use the requested language. Otherwise follow the existing README or the user's language for a new one. Create multiple language files only when requested or already part of the project.
+
+## Establish the facts before the prose
+
+Read the repository's applicable instructions and existing README. Inspect the smallest relevant set of manifests, public entry points, CLI help, examples, tests, CI, configuration samples, license, and documentation. For a monorepo, distinguish the root overview from package-level setup.
+
+Build a compact working fact map; keep it out of the published README unless useful to readers:
+
+| Reader needs to know | Best available evidence |
+| --- | --- |
+| What it does and who it serves | Public interfaces, examples, existing product documentation |
+| How it is distributed | Package metadata, release artifacts, containers, deployment docs |
+| Requirements and environments | Version constraints and CI matrix; distinguish declared from tested support |
+| Install/run/import commands | Actual package name, scripts, entry points, examples, CLI help |
+| First successful result | Example input plus assertion, response, screenshot, or documented behavior |
+| Limitations and status | Implemented behavior, release notes, explicit maintainer statements |
+| License and contribution path | Actual license file and contribution documentation |
+
+Prefer implementation and maintained metadata when prose conflicts with them; report material discrepancies. Do not invent package publication, performance numbers, screenshots, hosted demos, CI badges, supported platforms, roadmap commitments, or a license. User-provided plans are plans until implemented. If a fact is missing, omit an optional claim or label the uncertainty outside the final README. Ask only when the missing fact changes the main onboarding path; continue independent work.
+
+## Choose the reader journey
+
+Identify the primary reader, their immediate job, and the smallest meaningful success. Select a route using [patterns.md](references/patterns.md) when the structure is uncertain:
+
+| Repository | Primary route |
+| --- | --- |
+| Library / SDK | Install → import → input → output → API docs |
+| CLI / developer tool | Install → command → visible result → common tasks / help |
+| Desktop / web application | See the experience → download or launch → first interaction |
+| Service / platform | Choose hosted, local, or self-hosted → prerequisites → start → verify |
+| ML / research | Task → environment / weights / data → inference or reproduction → limits / citation |
+| Curated list / learning resource | Scope → navigation → first reading or exercise → contribution rules |
+| Agent skill | Capability → install complete folder → invocation → expected artifact |
+
+When mature documentation already owns onboarding, a short README with clearly labeled start links can be enough. When no such docs exist, keep the essential first-use path in the README. For knowledge repositories, navigation or a first exercise replaces software installation. Do not force every repository through a runnable quickstart.
+
+## Write for the next decision
+
+Open with the project name and a specific sentence: what it is, what it does, and for whom. Give the reader an immediate action or evidence of the result. Explain differentiators through supported behavior, not generic praise.
+
+For a runnable quickstart, include necessary prerequisites, working directory, installation, minimal input, execution, and recognizable success. Make one supported path easy to follow; put substantial alternatives behind named sections or existing docs. Separate commands from expected output. Label the shell correctly; do not put Bash activation or quoting in a PowerShell block. Mark placeholders and show where required configuration comes from.
+
+Keep first use separate from source development and production deployment. Surface an expensive model download, required credential, paid service, hardware requirement, or externally visible action before the command that depends on it. Include only costs and constraints established by the project.
+
+Add sections only when they resolve a reader need:
+
+- Small capability lists with links to deeper docs.
+- Screenshots for interaction, command transcripts for CLI behavior, or architecture diagrams for deployment choices. Use actual assets and descriptive alt text; never fabricate a screenshot.
+- Requirements, supported environments, and known limits near the affected steps.
+- Benchmarks only with a traceable workload, environment, baseline, and method; preserve important caveats.
+- A short navigation list when the page is long enough to need one.
+- Existing help, contribution, security-reporting, and license destinations with accurate labels.
+
+Move exhaustive flags, API catalogs, platform-specific build recipes, and long contributor instructions into existing documentation where possible. Do not create an entire docs site merely to shorten a README. Prefer relative links for repository files and check paths with exact case. Use a few useful badges only when their targets exist; stars, sponsor walls, and decorative headers are optional editorial choices.
+
+## Validate the reader path
+
+Read [review-checklist.md](references/review-checklist.md) for a full review or substantial rewrite; use only relevant checks for a small edit.
+
+Trace every command against repository evidence. Execute a cheap, permitted first-use path when practical. Reading a command is not executing it; do not claim a smoke test passed when only metadata was checked. Do not execute deployment, paid API calls, destructive operations, or credential-consuming actions merely to validate prose without the needed authorization. If execution is unavailable, state the precise validation limit in the delivery note.
+
+Check Markdown fences, links, images, anchors, and consistency across language versions. Read the result as a new user: can they identify the project, choose the correct route, and recognize success without guessing?
+
+## Deliver
+
+Write the requested file or return the requested review. Briefly report what changed, what was checked, and any unresolved factual blocker. Keep research notes, fact maps, and editorial commentary out of the README unless asked. Publish, commit, or change repository settings only when authorized by the user's task.
+
+For underlying observations and their limits, consult [source-study.md](references/source-study.md). The study is reference material; it need not be loaded for every edit.
