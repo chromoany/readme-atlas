@@ -2,7 +2,7 @@
 
 **Give every project a clear path from first glance to first use.**
 
-A reusable agent skill for writing, improving, and reviewing repository READMEs. It turns observations from **16 open-source projects** into project-specific writing decisions: a library needs an input/output example, a platform needs deployment choices, and a learning resource needs a starting route.
+A reusable agent skill for writing, improving, and reviewing repository READMEs, covering both onboarding and visual presentation. It turns observations from **16 open-source projects** into project-specific writing decisions: a library needs an input/output example, a platform needs deployment choices, and a learning resource needs a starting route. Its visual guide covers identity, layout, badges, previews, and light/dark readability.
 
 [简体中文](README.zh-CN.md) · [Skill instructions](skills/readme-atlas/SKILL.md) · [Source study](skills/readme-atlas/references/source-study.md)
 
@@ -55,6 +55,12 @@ Prioritize issues that would prevent a new user from getting started.
 ```
 
 ```text
+Use $readme-atlas to polish this README's visual presentation.
+Improve the opening, badge consistency, previews, spacing, and navigation
+while preserving accurate commands and the project's identity.
+```
+
+```text
 使用 $readme-atlas，根据仓库实际内容编写中文 README。
 保留真实命令，说明运行后应该看到什么，不要编造功能或性能数据。
 ```
@@ -66,8 +72,9 @@ Prioritize issues that would prevent a new user from getting started.
 | What to say | Inspect manifests, interfaces, examples, tests, docs, and licensing |
 | What to show first | Choose the intended reader's smallest useful result |
 | How to organize it | Adapt to libraries, CLIs, applications, platforms, ML, resources, or skills |
+| How it should look | Choose a coherent visual direction; compose the opening, badges, media, and reading rhythm |
 | What to leave out | Remove unsupported claims and sections with no reader purpose |
-| How to verify it | Trace commands, check links, and run an appropriate smoke path when practical |
+| How to verify it | Trace commands, check links, run an appropriate smoke path, and inspect rendering when practical |
 
 The skill is instruction-only, with optional references loaded as needed. Codex UI metadata is included. Other agents can read the Markdown instructions, but their installation and invocation behavior has not been verified here.
 
@@ -77,11 +84,14 @@ The sample includes React, Vue, Vite, FastAPI, uv, GitHub CLI, Deno, Ollama, Sup
 
 Our synthesis is to organize around the reader's next decision, preserve one complete first-use route where appropriate, and keep every promise tied to evidence. Short documentation gateways and long learning resources can both work; their audiences need different things.
 
+We also studied the visual choices in eight of these projects: Vite's brand area, uv's captioned chart, Supabase and RustDesk's previews, React's typography, fzf's terminal presentation, Transformers' collapsible examples, and Awesome's navigation and spacing. The [visual guide](skills/readme-atlas/references/visual-design.md) explains what to borrow and which tradeoffs to check.
+
 Read the [per-project observations and transfer limits](skills/readme-atlas/references/source-study.md). Every sampled README is linked at a pinned commit, with retrieval metadata and a SHA-256 digest in [the research manifest](research/sources.json). This is a qualitative sample, not evidence that a layout causes popularity or adoption.
 
 ## Explore and contribute
 
 - [Reader journeys and adaptable outlines](skills/readme-atlas/references/patterns.md)
+- [Visual design patterns and source observations](skills/readme-atlas/references/visual-design.md)
 - [Review checklist](skills/readme-atlas/references/review-checklist.md)
 - [Worked example](examples/cli-rewrite.md)
 - [Research method and source verification](research/README.md)

@@ -1,11 +1,11 @@
 ---
 name: readme-atlas
-description: Write, improve, or review repository READMEs using project evidence and patterns studied across open-source projects. Use for README creation, onboarding improvements, project positioning, and README translation; adapt to libraries, CLIs, applications, platforms, research, and curated resources.
+description: Write, improve, or review repository READMEs for accurate onboarding and polished visual presentation. Use for README creation, visual design, layout, badges, screenshots, project positioning, and translation, using repository evidence and patterns studied across open-source projects.
 ---
 
 # README Atlas
 
-Help the intended reader decide whether a project fits and reach a useful first result. Choose the structure from the project's actual distribution and audience. A popular project's README is evidence of one editorial choice, not a universal template.
+Help the intended reader recognize the project, enjoy a coherent presentation, decide whether it fits, and reach a useful first result. Treat visual quality, factual accuracy, and onboarding as complementary parts of README quality. Choose the structure and visual language from the project's actual distribution, audience, and identity. A popular project's README is evidence of one editorial choice, not a universal template.
 
 ## Choose the task
 
@@ -50,6 +50,14 @@ Identify the primary reader, their immediate job, and the smallest meaningful su
 
 When mature documentation already owns onboarding, a short README with clearly labeled start links can be enough. When no such docs exist, keep the essential first-use path in the README. For knowledge repositories, navigation or a first exercise replaces software installation. Do not force every repository through a runnable quickstart.
 
+## Design the presentation
+
+For a new README, a substantial rewrite, or a visual review, read [visual-design.md](references/visual-design.md). Consider aesthetics even when the user only asks for a good README; scale the changes to the requested scope.
+
+Choose a coherent direction: a clean technical document, a compact branded introduction, a product demonstration, or a navigable resource collection. Use the project's existing identity and real assets when available. Give the opening a clear focal point, a concise promise, useful entry links, and an appropriate preview. Keep headings, spacing, badges, image proportions, and accents consistent. A small project can look polished through typography and rhythm alone; a visual product often benefits from a real screenshot or demonstration.
+
+Compose the rendered page deliberately. Keep body text and instructions easy to scan, use tables for short comparisons, and reserve collapsible sections for optional depth. Check how badges wrap, screenshots scale, and artwork contrasts with the background. Use GitHub-compatible Markdown and simple supported HTML for repository READMEs; do not depend on custom CSS or scripts. Brand illustrations should be original or reusable with permission, and remain distinguishable from actual product screenshots.
+
 ## Write for the next decision
 
 Open with the project name and a specific sentence: what it is, what it does, and for whom. Give the reader an immediate action or evidence of the result. Explain differentiators through supported behavior, not generic praise.
@@ -75,7 +83,7 @@ Read [review-checklist.md](references/review-checklist.md) for a full review or 
 
 Trace every command against repository evidence. Execute a cheap, permitted first-use path when practical. Reading a command is not executing it; do not claim a smoke test passed when only metadata was checked. Do not execute deployment, paid API calls, destructive operations, or credential-consuming actions merely to validate prose without the needed authorization. If execution is unavailable, state the precise validation limit in the delivery note.
 
-Check Markdown fences, links, images, anchors, and consistency across language versions. Read the result as a new user: can they identify the project, choose the correct route, and recognize success without guessing?
+Check Markdown fences, links, images, anchors, and consistency across language versions. For substantial presentation changes, inspect the rendered README where possible, including a normal reading width and a narrow layout; check light/dark contrast when artwork or badge styling depends on the theme. Report source-only checks as such. Read the result as a new user: does it look coherent, can they identify the project, choose the correct route, and recognize success without guessing?
 
 ## Deliver
 

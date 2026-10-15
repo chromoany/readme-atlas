@@ -1,4 +1,4 @@
 interface:
   display_name: "README Atlas"
-  short_description: "Write project-specific READMEs from repository evidence"
-  default_prompt: "Use $readme-atlas to inspect this repository and write a README that helps its intended readers get started."
+  short_description: "Create accurate, visually polished project READMEs"
+  default_prompt: "Use $readme-atlas to inspect this repository and write a visually polished README with a clear path to first use."

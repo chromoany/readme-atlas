@@ -2,7 +2,7 @@
 
 **让每个项目都有一条从“看懂”到“用起来”的清晰路线。**
 
-一个用于新建、改写和审查项目 README 的 agent skill。研究了 **16 个开源项目**的 README，将观察提炼为按项目类型选择的写作方法：库需要输入输出示例，平台需要部署路线，知识库需要阅读起点。
+一个用于新建、改写和审查项目 README 的 agent skill，同时关注上手体验与视觉呈现。研究了 **16 个开源项目**的 README，将观察提炼为按项目类型选择的写作方法：库需要输入输出示例，平台需要部署路线，知识库需要阅读起点。视觉指南覆盖品牌识别、布局、徽章、效果预览和深浅色可读性。
 
 [English](README.md) · [Skill 正文](skills/readme-atlas/SKILL.md) · [逐项目研究](skills/readme-atlas/references/source-study.md)
 
@@ -55,6 +55,12 @@ Copy-Item -Recurse .\skills\readme-atlas "$HOME\.agents\skills\"
 ```
 
 ```text
+使用 $readme-atlas 美化现有 README。
+改进首屏、徽章一致性、效果预览、留白和导航，
+保留准确命令与项目原有的品牌风格。
+```
+
+```text
 使用 $readme-atlas 将 README.md 翻译为 README.zh-CN.md。
 保持命令、要求和功能状态一致，并添加双向语言入口。
 ```
@@ -66,8 +72,9 @@ Copy-Item -Recurse .\skills\readme-atlas "$HOME\.agents\skills\"
 | 哪些内容可信 | 检查配置、接口、示例、测试、文档和许可证 |
 | 首先呈现什么 | 找到目标读者最小且有意义的成功结果 |
 | 选择什么结构 | 根据库、CLI、应用、平台、ML、资源库或 skill 调整 |
+| 如何呈现得好看 | 选择协调的视觉方向，设计首屏、徽章、配图与阅读节奏 |
 | 哪些内容不写 | 删除无依据的承诺和没有读者用途的章节 |
-| 如何验证 | 核对命令、检查链接，条件允许时执行适当的首次使用路径 |
+| 如何验证 | 核对命令、检查链接，条件允许时执行首次使用路径并检查实际渲染 |
 
 skill 由 Markdown 指令组成，详细参考资料按需读取，附带 Codex 界面元数据。其他 agent 可以阅读这些指令，但其安装与调用行为尚未在本项目验证。
 
@@ -77,11 +84,14 @@ skill 由 Markdown 指令组成，详细参考资料按需读取，附带 Codex 
 
 我们的归纳是：围绕读者的下一步决策组织内容；适用时提供完整的首次使用路线；每一项功能和承诺都需要依据。简短的文档入口和很长的学习资源都可能合理，关键在于项目读者需要什么。
 
+此外，深入研究了其中八个项目的视觉做法：Vite 的品牌首屏、uv 带说明的图表、Supabase 与 RustDesk 的效果预览、React 的文字层级、fzf 的终端展示、Transformers 的折叠示例，以及 Awesome 的导航与留白。[视觉指南](skills/readme-atlas/references/visual-design.md)说明了各自可借鉴的方法和需要权衡的地方。
+
 [研究记录](skills/readme-atlas/references/source-study.md)区分了“观察到的做法”“可借鉴的方法”和“不能直接照搬的部分”。每份原始 README 都有固定提交链接，[研究清单](research/sources.json)记录了来源与 SHA-256。这是一组定性样本，不能证明某种排版导致项目受欢迎。
 
 ## 继续阅读与贡献
 
 - [各类项目的读者路线](skills/readme-atlas/references/patterns.md)
+- [视觉设计方法与来源观察](skills/readme-atlas/references/visual-design.md)
 - [审查清单](skills/readme-atlas/references/review-checklist.md)
 - [改写示例](examples/cli-rewrite.md)
 - [研究方法与来源校验](research/README.md)

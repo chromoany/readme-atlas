@@ -14,6 +14,8 @@ The transferable pattern is a sequence of reader decisions: understand the proje
 
 Our recommendation is to choose a reader journey before choosing headings. Borrow the mechanism that serves that reader, not the whole page's length, visual style, or marketing vocabulary.
 
+The follow-up [visual-design study](visual-design.md) examines identity areas, badges, screenshots, theme-aware assets, navigation, whitespace, and collapsible sections in eight of these projects. It distinguishes source observations from rendered browser checks and turns them into adaptable design decisions.
+
 ## FastAPI
 
 [Pinned README][fastapi]

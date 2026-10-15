@@ -8,6 +8,8 @@ For each repository, we resolved the selected branch to a commit and fetched the
 
 We compared opening explanations, first-use routes, examples and results, installation choices, deeper docs, visuals, support, contribution, and license navigation. The [source study](../skills/readme-atlas/references/source-study.md) records original paraphrases and separates observations, recommendations, and transfer limits. Original texts were read in a temporary research cache and are not distributed here.
 
+The follow-up [visual-design reference](../skills/readme-atlas/references/visual-design.md) examines eight members of this corpus in more depth: Vite, uv, Supabase, RustDesk, React, fzf, Transformers, and Awesome. Their pinned markup was checked for identity, badge groups, media, themes, navigation, spacing, and optional detail. Vite, uv, and Supabase were also inspected in GitHub's rendered desktop view with the browser's existing dark appearance. This pass did not audit every upstream asset across devices or themes; screenshots were inspected without copying upstream assets into the repository.
+
 ## Reproduce source verification
 
 From the repository root, with Python 3.10+ and network access:

@@ -24,6 +24,10 @@ This invents package publication, an executable, performance evidence, maturity,
 
 The [rewritten README](fixtures/log-slice/README.md) uses the CLI journey: a specific explanation, a local execution path, supplied input, exact output, and a precise matching limitation. It avoids an unsupported install command and keeps contributor or production sections out of a tiny local script's first-use path.
 
+## Visual decisions
+
+This small CLI uses the technical and typographic direction from the [visual-design guide](../skills/readme-atlas/references/visual-design.md): a clear text title, short purpose paragraph, regular headings, separate command/output blocks, and a compact limitation paragraph. It has no existing brand artwork or published version badge to surface. The choice is deliberate: a product screenshot or large hero would add little to a three-line text-filtering example. For an interactive application, a real task-focused preview could be the stronger choice.
+
 ## Review findings
 
 | Impact | Evidence | Fix |

@@ -24,6 +24,12 @@ Apply relevant checks. Missing optional decoration is not a defect.
 
 ## Presentation
 
+- Is the overall visual direction coherent with the project's identity and audience?
+- Does the opening have a clear focal point, useful navigation, and comfortable spacing?
+- Are badge styles, icon roles, accents, and image proportions consistent? Do badges communicate genuine facts?
+- Do screenshots demonstrate an actual task, with legible text, useful cropping, captions, and no private data?
+- Do visual assets remain legible on the inspected themes? Do navigation, badges, and comparisons work at the inspected reading widths?
+- Do optional details stay accessible without hiding installation or the first example?
 - Does the opening explain the project and its value to the intended reader?
 - Are differentiators concrete and supported?
 - Does navigation help? Are useful anchors preserved or given compatibility anchors?
@@ -51,4 +57,6 @@ For create/rewrite tasks, report validation outside the README:
 - **Inspected:** commands or facts traced to repository evidence.
 - **Unverified:** concrete step not executed and why.
 
-Link checks do not validate software behavior; one local smoke run does not establish every platform.
+For visual findings, name the affected view and the reader consequence: unreadable logo on a dark background, primary action buried by a banner, or a table that forces narrow-screen horizontal scrolling. Separate these observed defects from optional style preferences. Use [visual-design.md](visual-design.md) for project-specific choices.
+
+Link checks do not validate software behavior or visual composition; one local smoke run does not establish every platform. List inspected themes and reading widths, or state that the presentation was reviewed from source only.
