@@ -78,6 +78,8 @@ Copy-Item -Recurse .\skills\readme-atlas "$HOME\.agents\skills\"
 
 skill 由 Markdown 指令组成，详细参考资料按需读取，附带 Codex 界面元数据。其他 agent 可以阅读这些指令，但其安装与调用行为尚未在本项目验证。
 
+对于包含徽章的 README，默认排版要求：全部徽章集中在顶部同一可见区域，并将徽章及其上方的标题、Logo、标语、语言切换统一居中。后续正文保持左对齐；下载量、兼容性和社区收录徽章也放在同一组。
+
 ## 研究与结论
 
 样本包括 React、Vue、Vite、FastAPI、uv、GitHub CLI、Deno、Ollama、Supabase、RustDesk、PyTorch、Transformers、ripgrep、fzf、Awesome 和 System Design Primer。

@@ -78,6 +78,8 @@ while preserving accurate commands and the project's identity.
 
 The skill is instruction-only, with optional references loaded as needed. Codex UI metadata is included. Other agents can read the Markdown instructions, but their installation and invocation behavior has not been verified here.
 
+For READMEs with badges, its layout convention keeps all badges in one visible header group and centers that group plus everything above it (title, logo, tagline, and language links). The following body stays left-aligned; download and community badges stay in the same group.
+
 ## What we learned
 
 The sample includes React, Vue, Vite, FastAPI, uv, GitHub CLI, Deno, Ollama, Supabase, RustDesk, PyTorch, Transformers, ripgrep, fzf, Awesome, and System Design Primer.

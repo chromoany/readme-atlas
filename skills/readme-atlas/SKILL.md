@@ -56,6 +56,8 @@ For a new README, a substantial rewrite, or a visual review, read [visual-design
 
 Choose a coherent direction: a clean technical document, a compact branded introduction, a product demonstration, or a navigable resource collection. Use the project's existing identity and real assets when available. Give the opening a clear focal point, a concise promise, useful entry links, and an appropriate preview. Keep headings, spacing, badges, image proportions, and accents consistent. A small project can look polished through typography and rhythm alone; a visual product often benefits from a real screenshot or demonstration.
 
+When the README uses badges, keep **all badges together in one visible header group**, including download counts, compatibility, and community/listing badges. **Center the entire badge group and everything above it**: title, logo, tagline, and language links. Keep the following body left-aligned. Do not move badges into the footer or a collapsed section to reduce clutter. This is README Atlas's layout convention; see the markup example in [visual-design.md](references/visual-design.md).
+
 Compose the rendered page deliberately. Keep body text and instructions easy to scan, use tables for short comparisons, and reserve collapsible sections for optional depth. Check how badges wrap, screenshots scale, and artwork contrasts with the background. Use GitHub-compatible Markdown and simple supported HTML for repository READMEs; do not depend on custom CSS or scripts. Brand illustrations should be original or reusable with permission, and remain distinguishable from actual product screenshots.
 
 ## Write for the next decision

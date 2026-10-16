@@ -28,7 +28,7 @@ Vite, uv, and Supabase were also inspected in GitHub's rendered desktop view usi
 | Demonstration-led | Desktop/web applications, interactive CLIs, visual tools | Identity and purpose, a real task-focused screenshot or short demonstration, a visible try/install route |
 | Navigation-led | Curated lists, courses, knowledge collections | Scope, a start-here path, category or study index, consistent entry formatting |
 
-Mix directions only when they remain coherent. Centering the identity area can work well with a left-aligned technical body. Centering long paragraphs, code, or whole documentation sections makes scanning harder. A logo, animation, or badge collection is a design option, not a required asset.
+Mix directions only when they remain coherent. For a README with badges, apply the centered header convention below and keep long paragraphs, code, and documentation sections in the left-aligned body. A logo, animation, or badge collection is a design option, not a required asset.
 
 ## Compose the opening
 
@@ -45,6 +45,8 @@ Use comfortable spacing between groups; let the renderer's headings and paragrap
 
 ## Badges, colors, and icons
 
+- Keep every badge together in one visible header group: version, download counts, license, platform, size, compatibility, build status, and community/listing badges when present. Do not scatter them across sections, place downloads in the footer, or hide badges inside `details`. Allow the group to wrap naturally on narrow screens; together does not mean forced onto one row.
+- Center the complete badge group and every element before it, including the project title, logo, tagline, and language links. End the centered container immediately after the badges; keep subsequent navigation and body text left-aligned unless the current request specifies otherwise. This layout is an explicit README Atlas convention, not a claim that every studied project uses it.
 - Select badges that answer real questions: version, build state, license, supported runtime, or a relevant community destination. Preserve semantic colors for statuses such as pass/fail.
 - Use a consistent badge style and label convention. Avoid repeating the same fact through several badges. A compact wrapping group is easier to maintain than a wide single-row layout.
 - Give each badge a real destination and useful alt text. A static "passing" image is not a CI result. Remove a badge whose source or claim is unavailable.
@@ -87,19 +89,26 @@ GitHub READMEs have a host-controlled font, content width, and sanitization rule
 
 These are author-created patterns, not copied project branding. Replace example names and paths with real project material before publication.
 
-### Compact identity and navigation
+### Centered identity and one badge group
 
-```html
-<h1 align="center">Project name</h1>
-<p align="center">A specific sentence explaining the project.</p>
-<p align="center">
-  <a href="#quickstart">Quickstart</a> ·
-  <a href="docs/README.md">Documentation</a> ·
-  <a href="CONTRIBUTING.md">Contribute</a>
-</p>
+```markdown
+<div align="center">
+
+# Project name
+
+**A specific sentence explaining the project.**
+
+English | [简体中文](README.zh-CN.md)
+
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](package.json)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+
+</div>
+
+[Quickstart](#quickstart) · [Documentation](docs/README.md) · [Contribute](CONTRIBUTING.md)
 ```
 
-Keep the body left-aligned. Add a real logo or a few verified badges if they help the chosen identity; a text-only heading is already a complete option.
+The example badge values are illustrative; replace them with verified project facts. Place any other real badges in that same group. An existing logo belongs inside the centered container above the badges. Keep blank lines around the Markdown inside the HTML container, preserve existing heading anchors, and verify GitHub's rendered result. For a README without badges, a text-only heading remains a complete option.
 
 ### Theme-aware artwork
 
@@ -134,7 +143,7 @@ Leave blank lines around Markdown inside HTML containers, and verify the result 
 
 For a substantial visual change, inspect the rendered page where practical:
 
-- **Normal reading width:** identity, purpose, navigation, and a first action are easy to distinguish; whitespace supports the content; images and badges load.
+- **Normal reading width:** identity, purpose, navigation, and a first action are easy to distinguish; whitespace supports the content; images and badges load; every badge is in the same visible group, with the group and everything before it centered.
 - **Narrow layout:** badge and link groups wrap cleanly; tables and code do not force the whole document wider; screenshot text remains useful.
 - **Light/dark appearance:** logos, transparent backgrounds, diagrams, and chart labels remain legible. Theme-specific assets actually select as intended.
 - **Reading without media:** the project explanation, install route, and essential results remain understandable through text and alt descriptions.

@@ -26,6 +26,8 @@ Apply relevant checks. Missing optional decoration is not a defect.
 
 - Is the overall visual direction coherent with the project's identity and audience?
 - Does the opening have a clear focal point, useful navigation, and comfortable spacing?
+- Are all badges together in one visible header group, including downloads, compatibility, and community/listing badges, with none scattered in the body/footer or hidden in `details`?
+- Are the complete badge group and everything before it (title, logo, tagline, language links) centered, with the following body left-aligned?
 - Are badge styles, icon roles, accents, and image proportions consistent? Do badges communicate genuine facts?
 - Do screenshots demonstrate an actual task, with legible text, useful cropping, captions, and no private data?
 - Do visual assets remain legible on the inspected themes? Do navigation, badges, and comparisons work at the inspected reading widths?
