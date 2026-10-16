@@ -1,0 +1,1419 @@
+{
+  "observed_date": "2026-10-16",
+  "date_context": "Asia/Hong_Kong; client date",
+  "target_count": 200,
+  "minimum_stars": 1000,
+  "selection_policy": "Prefer mature, widely recognized and domain-representative projects; every selected GitHub repository must have at least 1,000 Stars. This is not a ranking by Stars and does not infer README quality from popularity.",
+  "method": "Read exact stargazerCount integers from public GitHub repository page data. source_url preserves the resolved repository URL; README identity is pinned separately in sources.json.",
+  "repositories": [
+    {
+      "repository": "fastapi/fastapi",
+      "stars": 103124,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/fastapi/fastapi",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "astral-sh/uv",
+      "stars": 90802,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/astral-sh/uv",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "cli/cli",
+      "stars": 46660,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/cli/cli",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ollama/ollama",
+      "stars": 183370,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ollama/ollama",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "facebook/react",
+      "stars": 251091,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/react/react",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "vuejs/core",
+      "stars": 54646,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/vuejs/core",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "vitejs/vite",
+      "stars": 83340,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/vitejs/vite",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "denoland/deno",
+      "stars": 108699,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/denoland/deno",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "supabase/supabase",
+      "stars": 111621,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/supabase/supabase",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "rustdesk/rustdesk",
+      "stars": 125952,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/rustdesk/rustdesk",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "pytorch/pytorch",
+      "stars": 104726,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/pytorch/pytorch",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "huggingface/transformers",
+      "stars": 167742,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/huggingface/transformers",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "BurntSushi/ripgrep",
+      "stars": 69137,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/BurntSushi/ripgrep",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "junegunn/fzf",
+      "stars": 83588,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/junegunn/fzf",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sindresorhus/awesome",
+      "stars": 519577,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sindresorhus/awesome",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "donnemartin/system-design-primer",
+      "stars": 374374,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/donnemartin/system-design-primer",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "torvalds/linux",
+      "stars": 252005,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/torvalds/linux",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "postgres/postgres",
+      "stars": 22424,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/postgres/postgres",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "kubernetes/kubernetes",
+      "stars": 128252,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/kubernetes/kubernetes",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "opentofu/opentofu",
+      "stars": 30509,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/opentofu/opentofu",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ansible/ansible",
+      "stars": 70984,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ansible/ansible",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "prometheus/prometheus",
+      "stars": 66579,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/prometheus/prometheus",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sindresorhus/p-limit",
+      "stars": 2932,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sindresorhus/p-limit",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "neovim/neovim",
+      "stars": 102999,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/neovim/neovim",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "godotengine/godot",
+      "stars": 118476,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/godotengine/godot",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "numpy/numpy",
+      "stars": 33021,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/numpy/numpy",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "scikit-learn/scikit-learn",
+      "stars": 67651,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/scikit-learn/scikit-learn",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "jupyterlab/jupyterlab",
+      "stars": 15365,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/jupyterlab/jupyterlab",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "zephyrproject-rtos/zephyr",
+      "stars": 16804,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/zephyrproject-rtos/zephyr",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "home-assistant/core",
+      "stars": 91545,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/home-assistant/core",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "juice-shop/juice-shop",
+      "stars": 14106,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/juice-shop/juice-shop",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ruanyf/weekly",
+      "stars": 106253,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ruanyf/weekly",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "django/django",
+      "stars": 91345,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/django/django",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "pallets/flask",
+      "stars": 74910,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/pallets/flask",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "encode/starlette",
+      "stars": 12665,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/Kludex/starlette",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "expressjs/express",
+      "stars": 69571,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/expressjs/express",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "honojs/hono",
+      "stars": 32551,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/honojs/hono",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "nestjs/nest",
+      "stars": 76854,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/nestjs/nest",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sveltejs/svelte",
+      "stars": 88384,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sveltejs/svelte",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "angular/angular",
+      "stars": 101061,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/angular/angular",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "vercel/next.js",
+      "stars": 143027,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/vercel/next.js",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "nuxt/nuxt",
+      "stars": 60954,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/nuxt/nuxt",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "withastro/astro",
+      "stars": 63263,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/withastro/astro",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "remix-run/react-router",
+      "stars": 56614,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/remix-run/react-router",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "rust-lang/rust",
+      "stars": 120338,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/rust-lang/rust",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "golang/go",
+      "stars": 139217,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/golang/go",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "python/cpython",
+      "stars": 77587,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/python/cpython",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ruby/ruby",
+      "stars": 23780,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ruby/ruby",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "elixir-lang/elixir",
+      "stars": 26697,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/elixir-lang/elixir",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ziglang/zig",
+      "stars": 43283,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ziglang/zig",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "nim-lang/Nim",
+      "stars": 18266,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/nim-lang/Nim",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ocaml/ocaml",
+      "stars": 6608,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ocaml/ocaml",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "gradle/gradle",
+      "stars": 18894,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/gradle/gradle",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "apache/maven",
+      "stars": 5376,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/apache/maven",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "mesonbuild/meson",
+      "stars": 6648,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/mesonbuild/meson",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "Kitware/CMake",
+      "stars": 8126,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/Kitware/CMake",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sharkdp/bat",
+      "stars": 60798,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sharkdp/bat",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sharkdp/fd",
+      "stars": 44758,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sharkdp/fd",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sharkdp/hyperfine",
+      "stars": 29102,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sharkdp/hyperfine",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "eza-community/eza",
+      "stars": 23570,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/eza-community/eza",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ajeetdsouza/zoxide",
+      "stars": 40126,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ajeetdsouza/zoxide",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "starship/starship",
+      "stars": 60282,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/starship/starship",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "nushell/nushell",
+      "stars": 40670,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/nushell/nushell",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "fish-shell/fish-shell",
+      "stars": 34297,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/fish-shell/fish-shell",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "tmux/tmux",
+      "stars": 49852,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/tmux/tmux",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "jesseduffield/lazygit",
+      "stars": 83217,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/jesseduffield/lazygit",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "dandavison/delta",
+      "stars": 32507,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/dandavison/delta",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "jqlang/jq",
+      "stars": 35831,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/jqlang/jq",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "axios/axios",
+      "stars": 109302,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/axios/axios",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "TanStack/query",
+      "stars": 50439,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/TanStack/query",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "reduxjs/redux-toolkit",
+      "stars": 11231,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/reduxjs/redux-toolkit",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ReactiveX/rxjs",
+      "stars": 31695,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ReactiveX/rxjs",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "trpc/trpc",
+      "stars": 40708,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/trpc/trpc",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "chalk/chalk",
+      "stars": 23327,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/chalk/chalk",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "debug-js/debug",
+      "stars": 11458,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/debug-js/debug",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "lodash/lodash",
+      "stars": 61288,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/lodash/lodash",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "date-fns/date-fns",
+      "stars": 36648,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/date-fns/date-fns",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "colinhacks/zod",
+      "stars": 44136,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/colinhacks/zod",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "jquense/yup",
+      "stars": 23656,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/jquense/yup",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "panva/jose",
+      "stars": 7828,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/panva/jose",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "valkey-io/valkey",
+      "stars": 27440,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/valkey-io/valkey",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "duckdb/duckdb",
+      "stars": 42191,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/duckdb/duckdb",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "apache/arrow",
+      "stars": 17208,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/apache/arrow",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "apache/parquet-format",
+      "stars": 2617,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/apache/parquet-format",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "apache/kafka",
+      "stars": 33973,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/apache/kafka",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "nats-io/nats-server",
+      "stars": 20881,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/nats-io/nats-server",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "rabbitmq/rabbitmq-server",
+      "stars": 13928,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/rabbitmq/rabbitmq-server",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ClickHouse/ClickHouse",
+      "stars": 50442,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ClickHouse/ClickHouse",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "seaweedfs/seaweedfs",
+      "stars": 35509,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/seaweedfs/seaweedfs",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "apache/cassandra",
+      "stars": 10123,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/apache/cassandra",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "etcd-io/etcd",
+      "stars": 52368,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/etcd-io/etcd",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "tikv/tikv",
+      "stars": 16908,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/tikv/tikv",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "moby/moby",
+      "stars": 72190,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/moby/moby",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "containerd/containerd",
+      "stars": 21418,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/containerd/containerd",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "helm/helm",
+      "stars": 30326,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/helm/helm",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "pulumi/pulumi",
+      "stars": 25791,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/pulumi/pulumi",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "crossplane/crossplane",
+      "stars": 12155,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/crossplane/crossplane",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "argoproj/argo-cd",
+      "stars": 24412,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/argoproj/argo-cd",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "fluxcd/flux2",
+      "stars": 8444,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/fluxcd/flux2",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "k3s-io/k3s",
+      "stars": 34201,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/k3s-io/k3s",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "traefik/traefik",
+      "stars": 65243,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/traefik/traefik",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "caddyserver/caddy",
+      "stars": 78032,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/caddyserver/caddy",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "istio/istio",
+      "stars": 38443,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/istio/istio",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "cilium/cilium",
+      "stars": 25664,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/cilium/cilium",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "pytest-dev/pytest",
+      "stars": 14600,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/pytest-dev/pytest",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "psf/black",
+      "stars": 41931,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/psf/black",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "astral-sh/ruff",
+      "stars": 50108,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/astral-sh/ruff",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "eslint/eslint",
+      "stars": 27563,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/eslint/eslint",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "prettier/prettier",
+      "stars": 52374,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/prettier/prettier",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "vitest-dev/vitest",
+      "stars": 17241,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/vitest-dev/vitest",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "jestjs/jest",
+      "stars": 45483,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/jestjs/jest",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "microsoft/playwright",
+      "stars": 97818,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/microsoft/playwright",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "cypress-io/cypress",
+      "stars": 51047,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/cypress-io/cypress",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "SeleniumHQ/selenium",
+      "stars": 34553,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/SeleniumHQ/selenium",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "google/googletest",
+      "stars": 39645,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/google/googletest",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "catchorg/Catch2",
+      "stars": 21530,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/catchorg/Catch2",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "blender/blender",
+      "stars": 20938,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/blender/blender",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "GNOME/gimp",
+      "stars": 6517,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/GNOME/gimp",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "obsproject/obs-studio",
+      "stars": 77602,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/obsproject/obs-studio",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "audacity/audacity",
+      "stars": 18747,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/audacity/audacity",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "mltframework/shotcut",
+      "stars": 15432,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/mltframework/shotcut",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "KDE/kdenlive",
+      "stars": 5871,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/KDE/kdenlive",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "darktable-org/darktable",
+      "stars": 13281,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/darktable-org/darktable",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "RawTherapee/RawTherapee",
+      "stars": 4230,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/RawTherapee/RawTherapee",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "FreeCAD/FreeCAD",
+      "stars": 34344,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/FreeCAD/FreeCAD",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "prusa3d/PrusaSlicer",
+      "stars": 9412,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/prusa3d/PrusaSlicer",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "openscad/openscad",
+      "stars": 10455,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/openscad/openscad",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "KDE/krita",
+      "stars": 10551,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/KDE/krita",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "microsoft/vscode",
+      "stars": 193679,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/microsoft/vscode",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "zed-industries/zed",
+      "stars": 91789,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/zed-industries/zed",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "helix-editor/helix",
+      "stars": 46608,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/helix-editor/helix",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "lapce/lapce",
+      "stars": 38921,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/lapce/lapce",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "wezterm/wezterm",
+      "stars": 29241,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/wezterm/wezterm",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "alacritty/alacritty",
+      "stars": 65975,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/alacritty/alacritty",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "kovidgoyal/kitty",
+      "stars": 35298,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/kovidgoyal/kitty",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "git/git",
+      "stars": 63816,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/git/git",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "git-lfs/git-lfs",
+      "stars": 14547,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/git-lfs/git-lfs",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "go-gitea/gitea",
+      "stars": 58528,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/go-gitea/gitea",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "laurent22/joplin",
+      "stars": 56752,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/laurent22/joplin",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "logseq/logseq",
+      "stars": 45248,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/logseq/logseq",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "scipy/scipy",
+      "stars": 15115,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/scipy/scipy",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "pandas-dev/pandas",
+      "stars": 50074,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/pandas-dev/pandas",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "matplotlib/matplotlib",
+      "stars": 23374,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/matplotlib/matplotlib",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sympy/sympy",
+      "stars": 15017,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sympy/sympy",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "scikit-image/scikit-image",
+      "stars": 6613,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/scikit-image/scikit-image",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "dask/dask",
+      "stars": 13935,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/dask/dask",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "apache/spark",
+      "stars": 44217,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/apache/spark",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "huggingface/datasets",
+      "stars": 22060,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/huggingface/datasets",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "vllm-project/vllm",
+      "stars": 93889,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ggml-org/llama.cpp",
+      "stars": 131331,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ggml-org/llama.cpp",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "mlflow/mlflow",
+      "stars": 28404,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/mlflow/mlflow",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ray-project/ray",
+      "stars": 44037,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ray-project/ray",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "openssl/openssl",
+      "stars": 30958,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/openssl/openssl",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "jedisct1/libsodium",
+      "stars": 13991,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/jedisct1/libsodium",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "curl/curl",
+      "stars": 43133,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/curl/curl",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "wireshark/wireshark",
+      "stars": 10015,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/wireshark/wireshark",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "the-tcpdump-group/tcpdump",
+      "stars": 3245,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/the-tcpdump-group/tcpdump",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "OISF/suricata",
+      "stars": 6733,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/OISF/suricata",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "falcosecurity/falco",
+      "stars": 9480,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/falcosecurity/falco",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "aquasecurity/trivy",
+      "stars": 38450,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/aquasecurity/trivy",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "anchore/grype",
+      "stars": 13030,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/anchore/grype",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "trufflesecurity/trufflehog",
+      "stars": 28532,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/trufflesecurity/trufflehog",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "gitleaks/gitleaks",
+      "stars": 29990,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/gitleaks/gitleaks",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "mitmproxy/mitmproxy",
+      "stars": 45659,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/mitmproxy/mitmproxy",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "FreeRTOS/FreeRTOS",
+      "stars": 7892,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/FreeRTOS/FreeRTOS",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "espressif/esp-idf",
+      "stars": 19256,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/espressif/esp-idf",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "arduino/ArduinoCore-avr",
+      "stars": 1512,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/arduino/ArduinoCore-avr",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "platformio/platformio-core",
+      "stars": 9530,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/platformio/platformio-core",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "micropython/micropython",
+      "stars": 22131,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/micropython/micropython",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "RIOT-OS/RIOT",
+      "stars": 5817,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/RIOT-OS/RIOT",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ARMmbed/mbed-os",
+      "stars": 4877,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ARMmbed/mbed-os",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "PX4/PX4-Autopilot",
+      "stars": 12813,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/PX4/PX4-Autopilot",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ArduPilot/ardupilot",
+      "stars": 16076,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ArduPilot/ardupilot",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ros2/ros2",
+      "stars": 6177,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ros2/ros2",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "petercorke/robotics-toolbox-python",
+      "stars": 3542,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/petercorke/robotics-toolbox-python",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "qemu/qemu",
+      "stars": 13862,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/qemu/qemu",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "rust-lang/book",
+      "stars": 18417,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/rust-lang/book",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "rust-lang/mdBook",
+      "stars": 22222,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/rust-lang/mdBook",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "sphinx-doc/sphinx",
+      "stars": 8061,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/sphinx-doc/sphinx",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "mkdocs/mkdocs",
+      "stars": 22502,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/mkdocs/mkdocs",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "squidfunk/mkdocs-material",
+      "stars": 27577,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/squidfunk/mkdocs-material",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "facebook/docusaurus",
+      "stars": 66501,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/facebook/docusaurus",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "docsifyjs/docsify",
+      "stars": 31543,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/docsifyjs/docsify",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "11ty/eleventy",
+      "stars": 19969,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/11ty/buildawesome",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ossu/computer-science",
+      "stars": 210034,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ossu/computer-science",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "TheOdinProject/curriculum",
+      "stars": 13149,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/TheOdinProject/curriculum",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "freeCodeCamp/freeCodeCamp",
+      "stars": 457131,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "public-apis/public-apis",
+      "stars": 489187,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/public-apis/public-apis",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "ruanyf/es6tutorial",
+      "stars": 21418,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/ruanyf/es6tutorial",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "xitu/gold-miner",
+      "stars": 34361,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/xitu/gold-miner",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "doocs/leetcode",
+      "stars": 36690,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/doocs/leetcode",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "krahets/hello-algo",
+      "stars": 130751,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/krahets/hello-algo",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "TheAlgorithms/Python",
+      "stars": 225293,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/TheAlgorithms/Python",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "vuepress/vuepress-next",
+      "stars": 2838,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/vuepress/core",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "beancount/beancount",
+      "stars": 6089,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/beancount/beancount",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "simonmichael/hledger",
+      "stars": 4766,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/hledgerorg/hledger",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "openstreetmap/iD",
+      "stars": 3901,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/openstreetmap/iD",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "OSGeo/gdal",
+      "stars": 6103,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/OSGeo/gdal",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "wesnoth/wesnoth",
+      "stars": 6939,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/wesnoth/wesnoth",
+      "evidence_field": "GitHub repository page stargazerCount"
+    },
+    {
+      "repository": "Anuken/Mindustry",
+      "stars": 29371,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/Anuken/Mindustry",
+      "evidence_field": "GitHub repository page stargazerCount"
+    }
+  ],
+  "excluded": [
+    {
+      "repository": "golang/website",
+      "stars": 444,
+      "observed_date": "2026-10-16",
+      "source_url": "https://github.com/golang/website",
+      "reason": "Below the user-required 1,000-Star minimum; replaced by rust-lang/mdBook."
+    }
+  ]
+}

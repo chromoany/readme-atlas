@@ -10,6 +10,9 @@ Apply relevant checks. Missing optional decoration is not a defect.
 - Do releases, demos, badges, screenshots, docs, and license destinations exist?
 - Are features separated from plans? Are performance claims traceable and qualified?
 - Are unknowns omitted or raised explicitly instead of guessed?
+- Is the repository's distribution role clear, and are advertised SDKs or extension points supported public interfaces?
+- Were root README pointers or symlinks followed, with package-level paths and canonical/migrated repository destinations preserved?
+- Are relevant release channels and lifecycle notices accurate, with experimental artifacts distinguished from normal adoption?
 
 ## First use
 
@@ -21,6 +24,13 @@ Apply relevant checks. Missing optional decoration is not a defect.
 - Are user installation, contributor development, and production deployment distinguishable?
 - Does a documentation gateway reach complete maintained onboarding?
 - Does a knowledge repository offer reading or practice instead of artificial installation?
+- Are core runtime requirements separated from optional examples, plotting, tests, builds, and extension development?
+- Are application-defined helpers supplied for a runnable example, or is the snippet clearly illustrative?
+- Does hardware-dependent setup identify the target or link maintained board/toolchain guidance without implying untested combinations?
+- If the project restricts a shared demo, is the intended exercise environment clear?
+- Does a publication make its latest edition and archive discoverable in the audience's language?
+- Does an integrated CLI explain activation/configuration after installing the executable?
+- Does a book separate reading from building its source, and does a specification avoid an invented software-install route?
 
 ## Presentation
 
@@ -40,6 +50,7 @@ Apply relevant checks. Missing optional decoration is not a defect.
 - Do relative links resolve with exact case from the containing file?
 - Are language files mutually linked and factually consistent?
 - Do help and contribution links name their intended destinations accurately?
+- For RST, AsciiDoc, or text READMEs, do native headings, substitutions, image directives, and links survive the edit? Was any format conversion intentional?
 
 ## Reporting
 

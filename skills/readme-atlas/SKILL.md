@@ -20,6 +20,8 @@ Use the requested language. Otherwise follow the existing README or the user's l
 
 Read the repository's applicable instructions and existing README. Inspect the smallest relevant set of manifests, public entry points, CLI help, examples, tests, CI, configuration samples, license, and documentation. For a monorepo, distinguish the root overview from package-level setup.
 
+Identify whether this is the user distribution, a source tree, an extension, a format specification, or a content archive. Follow README symlinks or path pointers to the actual document before treating a monorepo root stub as missing onboarding. Check which packages are intended as public interfaces; importable internal modules are not automatically supported SDKs. Preserve the existing README format unless conversion is requested or needed for the task; RST substitutions, AsciiDoc directives, and text headings need their own syntax, not pasted Markdown or HTML conventions.
+
 Build a compact working fact map; keep it out of the published README unless useful to readers:
 
 | Reader needs to know | Best available evidence |
@@ -45,7 +47,11 @@ Identify the primary reader, their immediate job, and the smallest meaningful su
 | Desktop / web application | See the experience → download or launch → first interaction |
 | Service / platform | Choose hosted, local, or self-hosted → prerequisites → start → verify |
 | ML / research | Task → environment / weights / data → inference or reproduction → limits / citation |
+| Systems / embedded | Reader role / target hardware → supported setup guide → build or first task → verification |
+| Scientific / notebook environment | Core installation → small calculation or browser launch → optional examples / extensions |
 | Curated list / learning resource | Scope → navigation → first reading or exercise → contribution rules |
+| Periodical / content archive | Latest edition → dated archive → reading / submission route |
+| Specification / interchange format | Scope → concepts / terminology → format details → implementations / contribution |
 | Agent skill | Capability → install complete folder → invocation → expected artifact |
 
 When mature documentation already owns onboarding, a short README with clearly labeled start links can be enough. When no such docs exist, keep the essential first-use path in the README. For knowledge repositories, navigation or a first exercise replaces software installation. Do not force every repository through a runnable quickstart.
@@ -58,7 +64,7 @@ Choose a coherent direction: a clean technical document, a compact branded intro
 
 When the README uses badges, keep **all badges together in one visible header group**, including download counts, compatibility, and community/listing badges. **Center the entire badge group and everything above it**: title, logo, tagline, and language links. Keep the following body left-aligned. Do not move badges into the footer or a collapsed section to reduce clutter. This is README Atlas's layout convention; see the markup example in [visual-design.md](references/visual-design.md).
 
-Compose the rendered page deliberately. Keep body text and instructions easy to scan, use tables for short comparisons, and reserve collapsible sections for optional depth. Check how badges wrap, screenshots scale, and artwork contrasts with the background. Use GitHub-compatible Markdown and simple supported HTML for repository READMEs; do not depend on custom CSS or scripts. Brand illustrations should be original or reusable with permission, and remain distinguishable from actual product screenshots.
+Compose the rendered page deliberately. Keep body text and instructions easy to scan, use tables for short comparisons, and reserve collapsible sections for optional depth. Check how badges wrap, screenshots scale, and artwork contrasts with the background. For Markdown READMEs, use GitHub-compatible Markdown and simple supported HTML; preserve native syntax for other formats. Do not depend on custom CSS or scripts. Brand illustrations should be original or reusable with permission, and remain distinguishable from actual product screenshots.
 
 ## Write for the next decision
 
@@ -67,6 +73,8 @@ Open with the project name and a specific sentence: what it is, what it does, an
 For a runnable quickstart, include necessary prerequisites, working directory, installation, minimal input, execution, and recognizable success. Make one supported path easy to follow; put substantial alternatives behind named sections or existing docs. Separate commands from expected output. Label the shell correctly; do not put Bash activation or quoting in a PowerShell block. Mark placeholders and show where required configuration comes from.
 
 Keep first use separate from source development and production deployment. Surface an expensive model download, required credential, paid service, hardware requirement, or externally visible action before the command that depends on it. Include only costs and constraints established by the project.
+
+Keep runtime requirements distinct from optional example, test, build, and extension-development dependencies. Where the project makes the distinction, label stable releases, experimental builds, and obsolete versions; link changing compatibility or board matrices to maintained guidance. If an example depends on application-defined helpers, either supply them for a runnable quickstart or clearly present an API illustration. Preserve actual shared-demo restrictions rather than treating every demo as an exercise environment.
 
 Add sections only when they resolve a reader need:
 
@@ -91,4 +99,4 @@ Check Markdown fences, links, images, anchors, and consistency across language v
 
 Write the requested file or return the requested review. Briefly report what changed, what was checked, and any unresolved factual blocker. Keep research notes, fact maps, and editorial commentary out of the README unless asked. Publish, commit, or change repository settings only when authorized by the user's task.
 
-For underlying observations and their limits, consult [source-study.md](references/source-study.md). The study is reference material; it need not be loaded for every edit.
+For underlying observations and their limits, consult the [200-project study index](references/source-study.md). It routes to fourteen domain groups plus the original detailed cases; read only the group relevant to the current task. The 1,000-Star minimum is a research-sample selection rule, not a requirement for repositories this skill can document.

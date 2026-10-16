@@ -16,8 +16,15 @@ The examples below use the same immutable README revisions as the [source study]
 | [fzf][fzf], opening / usage | Centered image identity, badge group, terminal preview, extensive navigation and examples | Demonstrate interaction visually, then make deeper tasks easy to locate | The promotional block before the introduction adds distance to first use |
 | [Transformers][transformers], opening / quickstart | Theme-aware logo, grouped badges and language links, task examples inside `details` blocks | Keep optional demonstrations available while controlling page density | Essential installation and the primary example should remain visible |
 | [Awesome][awesome], opening / contents | Large identity area, generous explicit spacing, sponsor graphics, categorized navigation | Use a stable taxonomy and clear category headings for discovery | The large promotional opening is an editorial tradeoff, not a prerequisite for a curated list |
+| [Prometheus][prometheus], opening / architecture | Centered identity and grouped status badges; a separate architecture image before installation | Use a diagram to explain component relationships before readers choose setup | Inspect diagram labels at reading width; the markup alone does not establish legibility |
+| [Godot][godot], opening / getting the engine | Centered logo, a large editor screenshot, then separate binary and source-build links | Show a creative tool in use and give its audience a direct download destination | The external screenshot can change independently; footer community badges differ from Atlas's header convention |
+| [Home Assistant][homeassistant], opening / integrations | RST image substitutions link interface and integration previews to different destinations | Keep preview destinations tied to reader tasks; retain native image definitions | External branch-based assets are mutable, and substitution markup does not prove rendered contrast |
+| [Zephyr][zephyr], opening / resources | RST embeds HTML with light/dark logo sources; resource groups use icons with text labels | Preserve format-specific artwork and label resource roles consistently | Do not copy raw-HTML directives into Markdown or assume all RST renderers accept them |
+| [OpenTofu][opentofu], opening / nightly builds | Separate light/dark image links, compact navigation, and a GitHub tip callout for optional event information | Keep adoption links prominent and reserve callouts for distinct secondary information | Empty image alt text loses identity when images are unavailable; GitHub theme fragments are renderer-specific |
 
 Vite, uv, and Supabase were also inspected in GitHub's rendered desktop view using the browser's existing dark appearance. The other five observations were checked against their pinned source markup. This pass did not establish how every asset renders on every theme, device, or third-party Markdown renderer. External images can change or fail independently of the pinned README bytes.
+
+The range expansion adds five more source-only observations: Prometheus, Godot, Home Assistant, Zephyr, and OpenTofu, for thirteen visual cases in total. No additional browser/theme/device rendering audit was performed in this expansion. The sampled badge arrangements vary; Atlas's centered single-group convention is a user-chosen rule, not a consensus found in the corpus.
 
 ## Choose a visual direction
 
@@ -84,6 +91,8 @@ Use repository-relative asset paths when the project owns the images. When image
 - Place sponsor, contributor, and ecosystem material where it serves the project's goals without accidentally hiding the main path.
 
 GitHub READMEs have a host-controlled font, content width, and sanitization rules. Work with headings, lists, tables, images, links, and simple supported HTML. Custom CSS, scripts, or website-style layout systems are not a portable README design foundation. See the [GFM specification](https://github.github.com/gfm/#what-is-github-flavored-markdown-).
+
+For an existing RST or text README, adapt the same hierarchy and reader decisions using its native format. Preserve substitution definitions, directives, and text navigation; do not convert formats solely to reproduce a sampled header. Theme-aware image syntax and callouts depend on the renderer, so report source-only observations separately from displayed results.
 
 ## Adaptable markup examples
 
@@ -158,3 +167,8 @@ Distinguish observed rendering defects from design suggestions and source-only c
 [fzf]: https://github.com/junegunn/fzf/blob/c8c2d0828a94a00879ceb6f95112a42e3ea322cf/README.md
 [transformers]: https://github.com/huggingface/transformers/blob/b0cdc61e607f39403e248b11c35aef4edfa7d216/README.md
 [awesome]: https://github.com/sindresorhus/awesome/blob/bc98e517ddca672f55f9857d714fc3ea3c3540b2/readme.md
+[prometheus]: https://github.com/prometheus/prometheus/blob/466be3beb37099c28804608966f894b0dbad9993/README.md
+[godot]: https://github.com/godotengine/godot/blob/4d10419cacd6d3009976e8f9fd3abd970fd58018/README.md
+[homeassistant]: https://github.com/home-assistant/core/blob/f1f9fb4ef0413632ece929c8753a42b6c57a8049/README.rst
+[zephyr]: https://github.com/zephyrproject-rtos/zephyr/blob/c136c73d7be3305d2c07ee5726d4c6d0d985068b/README.rst
+[opentofu]: https://github.com/opentofu/opentofu/blob/105b18bb846f80760ee983c8e49044b2bd30f0a4/README.md
