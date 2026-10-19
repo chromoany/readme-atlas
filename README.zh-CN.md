@@ -6,6 +6,31 @@
 
 [English](README.md) · [Skill 正文](skills/readme-atlas/SKILL.md) · [逐项目研究](skills/readme-atlas/references/source-study.md)
 
+## 看一个改写示例
+
+下面是使用本仓库作者编写的 Log Slice 演示脚本制作的手工改写案例。
+
+**改写前——故意写错的草稿：**
+
+> 用 `pip install logslice` 安装已发布的包，然后运行 `logslice`。
+
+**改写后——本地脚本，需要 Python 3.10+：**
+
+从本仓库根目录执行：
+
+```bash
+cd examples/fixtures/log-slice
+python logslice.py sample.log --level ERROR
+```
+
+预期输出：
+
+```text
+ERROR database unavailable
+```
+
+改写将没有依据的包安装说明替换为实际命令、必需输入和可识别的结果。[查看完整改写案例](examples/cli-rewrite.md)。
+
 ## 安装到 Codex
 
 克隆仓库，然后把 **完整的** `skills/readme-atlas` 文件夹复制到用户技能目录。克隆需要 Git；使用 skill 不需要安装 Python 包、提供 API Key 或额外运行时依赖。如果目标技能目录已存在，请先检查再决定是否替换。

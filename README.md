@@ -6,6 +6,31 @@ A reusable agent skill for writing, improving, and reviewing repository READMEs,
 
 [简体中文](README.zh-CN.md) · [Skill instructions](skills/readme-atlas/SKILL.md) · [Source study](skills/readme-atlas/references/source-study.md)
 
+## See a rewrite
+
+A manual worked example using this repository's author-created Log Slice fixture.
+
+**Before — deliberately flawed draft:**
+
+> Install the published package with `pip install logslice`, then run `logslice`.
+
+**After — local script, Python 3.10+:**
+
+From this repository's root:
+
+```bash
+cd examples/fixtures/log-slice
+python logslice.py sample.log --level ERROR
+```
+
+Expected output:
+
+```text
+ERROR database unavailable
+```
+
+The rewrite replaces an unsupported package install with the actual command, required input, and a recognizable result. [Read the full worked example](examples/cli-rewrite.md).
+
 ## Install in Codex
 
 Clone this repository, then copy the **complete** `skills/readme-atlas` folder into your user skill directory. Git is needed for cloning; no Python package, API key, or runtime dependency is needed to use the skill. If that skill directory already exists, review it before replacing it.
