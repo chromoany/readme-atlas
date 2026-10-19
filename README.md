@@ -1,35 +1,21 @@
+<div align="center">
+
+<img src="assets/readme-atlas-header.png" alt="README Atlas: document panels connected by a path and compass" width="960">
+
 # README Atlas
 
 **Give every project a clear path from first glance to first use.**
 
-A reusable agent skill for writing, improving, and reviewing repository READMEs, covering both onboarding and visual presentation. It turns observations from **200 widely recognized software and content projects**, each with **at least 1,000 GitHub Stars** at selection, into project-specific writing decisions: a library needs an input/output example, a platform needs deployment choices, and a learning resource needs a starting route. Its visual guide covers identity, layout, badges, previews, and light/dark readability.
+[English](README.md) · [简体中文](README.zh-CN.md)
 
-[简体中文](README.zh-CN.md) · [Skill instructions](skills/readme-atlas/SKILL.md) · [Source study](skills/readme-atlas/references/source-study.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-35b6bd?style=flat-square)](LICENSE)
+[![Codex agent skill](https://img.shields.io/badge/Codex-Agent%20Skill-35b6bd?style=flat-square)](skills/readme-atlas/SKILL.md)
 
-## See a rewrite
+</div>
 
-A manual worked example using this repository's author-created Log Slice fixture.
+An agent skill for **writing, improving, reviewing, and translating repository READMEs**. It combines repository evidence with a study of 200 projects to guide accurate content, clear first use, and coherent visual presentation.
 
-**Before — deliberately flawed draft:**
-
-> Install the published package with `pip install logslice`, then run `logslice`.
-
-**After — local script, Python 3.10+:**
-
-From this repository's root:
-
-```bash
-cd examples/fixtures/log-slice
-python logslice.py sample.log --level ERROR
-```
-
-Expected output:
-
-```text
-ERROR database unavailable
-```
-
-The rewrite replaces an unsupported package install with the actual command, required input, and a recognizable result. [Read the full worked example](examples/cli-rewrite.md).
+[Install](#install-in-codex) · [First use](#first-use) · [See a rewrite](#see-a-rewrite) · [Research and limits](#what-we-learned)
 
 ## Install in Codex
 
@@ -65,19 +51,26 @@ Target readers: developers trying the project for the first time.
 Use repository evidence for every command and feature claim.
 ```
 
-The expected artifact is a project-specific `README.md`, plus a short note describing what was checked and any unresolved facts. The skill asks the agent to inspect the repository before writing; it does not generate a fixed set of headings.
+Expect a project-specific `README.md` and a short delivery note describing what was checked and any unresolved facts. The agent inspects the repository before choosing content and headings.
 
-Other requests:
+<details>
+<summary>More ways to use the skill</summary>
+
+**Improve an existing README**
 
 ```text
 Use $readme-atlas to improve our existing README. Keep useful anchors
 and focus on making the first-run instructions complete.
 ```
 
+**Review without editing**
+
 ```text
 Use $readme-atlas to review README.md without editing it.
 Prioritize issues that would prevent a new user from getting started.
 ```
+
+**Polish the presentation**
 
 ```text
 Use $readme-atlas to polish this README's visual presentation.
@@ -85,54 +78,85 @@ Improve the opening, badge consistency, previews, spacing, and navigation
 while preserving accurate commands and the project's identity.
 ```
 
+**Write in Chinese**
+
 ```text
 使用 $readme-atlas，根据仓库实际内容编写中文 README。
 保留真实命令，说明运行后应该看到什么，不要编造功能或性能数据。
 ```
 
+</details>
+
+## See a rewrite
+
+A manual worked example using this repository's author-created Log Slice fixture.
+
+**Before — deliberately flawed draft:**
+
+> Install the published package with `pip install logslice`, then run `logslice`.
+
+**After — local script, Python 3.10+:**
+
+From this repository's root:
+
+```bash
+cd examples/fixtures/log-slice
+python logslice.py sample.log --level ERROR
+```
+
+Expected output:
+
+```text
+ERROR database unavailable
+```
+
+The rewrite replaces an unsupported package install with the actual command, required input, and a recognizable result. [Read the full worked example](examples/cli-rewrite.md).
+
+This fixture is a manual illustration of the method, not an independent evaluation of the skill.
+
 ## What the skill does
 
-| Decision | How README Atlas approaches it |
+| Your task | What README Atlas guides the agent to do |
 | --- | --- |
-| What to say | Inspect manifests, interfaces, examples, tests, docs, and licensing |
-| What to show first | Choose the intended reader's smallest useful result |
-| How to organize it | Adapt to libraries, CLIs, applications, platforms, systems/embedded software, scientific environments, ML, resources, archives, specifications and interchange formats, or skills |
-| How it should look | Choose a coherent visual direction; compose the opening, badges, media, and reading rhythm |
-| What to leave out | Remove unsupported claims and sections with no reader purpose |
-| How to verify it | Trace commands, check links, run an appropriate smoke path, and inspect rendering when practical |
+| Create | Inspect the repository, identify the reader, and choose a useful first-use route |
+| Improve | Preserve accurate content and useful anchors; fix gaps in explanation, commands, and presentation |
+| Review | Report concrete findings with evidence and proposed fixes; keep files unchanged for a review-only request |
+| Translate | Preserve commands, links, requirements, and feature status across language versions |
 
-The skill is instruction-only, with optional references loaded as needed. Codex UI metadata is included. Other agents can read the Markdown instructions, but their installation and invocation behavior has not been verified here.
+Visual guidance covers the opening, grouped badges, previews, spacing, navigation, and light/dark readability. Structure follows the project: a library needs an input/output example, a platform needs deployment choices, and a learning resource needs a starting route.
 
-For READMEs with badges, its layout convention keeps all badges in one visible header group and centers that group plus everything above it (title, logo, tagline, and language links). The following body stays left-aligned; download and community badges stay in the same group.
+The skill consists of Markdown instructions, references loaded as needed, and Codex UI metadata. Installation and invocation are documented for **Codex**. Other agents can read the instructions, but their installation and invocation behavior has not been verified here.
 
 ## What we learned
 
-The original sample includes React, Vue, Vite, FastAPI, uv, GitHub CLI, Deno, Ollama, Supabase, RustDesk, PyTorch, Transformers, ripgrep, fzf, Awesome, and System Design Primer.
+README Atlas draws on **200 pinned README studies** across software and content repositories. Each case records an observation, a transferable writing decision, and a limit on applying it.
 
-The first expansion added Linux, PostgreSQL, Kubernetes, OpenTofu, Ansible, Prometheus, p-limit, Neovim, Godot, NumPy, scikit-learn, JupyterLab, Zephyr, Home Assistant, OWASP Juice Shop, and the Chinese 科技爱好者周刊 archive.
+| Evidence | Coverage |
+| --- | --- |
+| README study | 32 detailed cases plus 168 focused source-structure reviews in 14 domain groups |
+| Visual study | 13 cases covering branding, previews, typography, navigation, and related choices |
+| Provenance | Immutable commit links, source paths, SHA-256 digests, and dated selection records |
 
-The **200-project corpus** retains those 32 pinned cases and adds 168 focused source-structure studies in 14 groups: web frameworks, languages/build systems, CLI/shell tools, established library ecosystems, data/storage, infrastructure, testing/quality, creative software, developer applications, scientific/ML software, security/networking, embedded/robotics, documentation/learning, and content/domain applications. Examples include Django, Rust, CPython, Axios, DuckDB, Blender, VS Code, OpenSSL, FreeRTOS, and mdBook. The [study index](skills/readme-atlas/references/source-study.md#study-index) routes to the relevant group.
+The corpus spans libraries, CLIs, applications, infrastructure, scientific software, embedded systems, learning resources, and content archives. It includes Markdown, RST, AsciiDoc, and plain-text READMEs. Start with the [study index](skills/readme-atlas/references/source-study.md#study-index); the [research method](research/README.md) explains selection and review depth.
 
-All 200 repositories passed the Star threshold when checked on **2026-10-16**; the observed minimum was **1,512**. [Selection evidence](research/selection.json) records exact counts, dates, and resolved repository URLs. This is a sample of recognized projects, not a ranking of README quality. It now covers Markdown, RST, AsciiDoc, and text, including package README pointers and repository migration notices.
+All 200 repositories had at least **1,000 GitHub Stars when checked on 2026-10-16**. This is a sample-selection rule, not a README quality score or a requirement for projects using the skill. See the [selection evidence](research/selection.json) and [source manifest](research/sources.json).
 
-Our synthesis is to organize around the reader's next decision, preserve one complete first-use route where appropriate, and keep every promise tied to evidence. Short documentation gateways and long learning resources can both work; their audiences need different things.
-
-We also studied the visual choices in thirteen of these projects: the original eight cases cover branding, charts, previews, typography, terminal presentation, collapsible examples, and navigation. Five added cases examine Prometheus's architecture image, Godot's editor preview, Home Assistant's RST images, Zephyr's format-specific artwork, and OpenTofu's theme and callout markup. The [visual guide](skills/readme-atlas/references/visual-design.md) separates source observations from rendered checks and explains which tradeoffs to assess.
-
-Read the [per-project observations and transfer limits](skills/readme-atlas/references/source-study.md). Every sampled README is linked at a pinned commit, with retrieval metadata and a SHA-256 digest in [the research manifest](research/sources.json). This is a qualitative sample, not evidence that a layout causes popularity or adoption.
+This is **qualitative editorial research**. It does not establish that a layout causes popularity or adoption. The 13 visual cases received different levels of source and rendered inspection; the corpus is not a uniform visual audit. No independent skill evaluation or conversion measurement has been performed. The [validation record](research/VALIDATION.md) separates executed checks, manual review, and unverified behavior.
 
 ## Explore and contribute
 
 - [Reader journeys and adaptable outlines](skills/readme-atlas/references/patterns.md)
 - [Visual design patterns and source observations](skills/readme-atlas/references/visual-design.md)
 - [Review checklist](skills/readme-atlas/references/review-checklist.md)
-- [Worked example](examples/cli-rewrite.md)
+- [Full worked example](examples/cli-rewrite.md)
 - [Research method and source verification](research/README.md)
 - [Corpus validation record](research/VALIDATION.md)
 - [Contribution guide](CONTRIBUTING.md)
 
-For a problem or proposed improvement, [open an issue](https://github.com/chromoany/readme-atlas/issues) with the affected file and a concrete example.
+For a problem or proposed improvement, [open an issue](https://github.com/chromoany/readme-atlas/issues) with the affected file and a concrete example. Contributions should improve a real reader decision and keep the English and Chinese READMEs consistent.
 
 ## License
+
+Created by [chromoany](https://github.com/chromoany).
 
 [MIT](LICENSE) for this repository's original instructions, analysis, examples, and tooling. Referenced projects retain their own licenses. This repository links to their READMEs rather than redistributing them.
