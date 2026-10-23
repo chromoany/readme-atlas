@@ -9,15 +9,28 @@
 [English](README.md) · [简体中文](README.zh-CN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-35b6bd?style=flat-square)](LICENSE)
-[![Codex agent skill](https://img.shields.io/badge/Codex-Agent%20Skill-35b6bd?style=flat-square)](skills/readme-atlas/SKILL.md)
+[![Agent skill](https://img.shields.io/badge/Agent-Skill-35b6bd?style=flat-square)](skills/readme-atlas/SKILL.md)
 
 </div>
 
 An agent skill for **writing, improving, reviewing, and translating repository READMEs**. It combines repository evidence with a study of 200 projects to guide accurate content, clear first use, and coherent visual presentation.
 
-[Install](#install-in-codex) · [First use](#first-use) · [See a rewrite](#see-a-rewrite) · [Research and limits](#what-we-learned)
+Its working rule is that **every command, feature claim, and requirement must be traceable to the repository**. When the evidence is missing, the skill removes the claim instead of rewording it, which is the failure mode readers complain about most in generated READMEs.
 
-## Install in Codex
+[Install](#install) · [First use](#first-use) · [See a rewrite](#see-a-rewrite) · [Research and limits](#what-we-learned)
+
+## Install
+
+The skill is plain Markdown with no runtime, package, or API dependency. Install it into every agent detected on your machine with one command:
+
+```bash
+npx skills add chromoany/readme-atlas
+```
+
+This places the skill in `.agents/skills/readme-atlas` and links it for the agents it finds (Claude Code, Codex, Cursor, GitHub Copilot, OpenCode, and others); the [skills CLI](https://github.com/vercel-labs/skills) supports 70+ agents. Add `--global` to install for the whole machine, or `-a codex` to target one agent.
+
+<details>
+<summary>Manual installation</summary>
 
 Clone this repository, then copy the **complete** `skills/readme-atlas` folder into your user skill directory. Git is needed for cloning; no Python package, API key, or runtime dependency is needed to use the skill. If that skill directory already exists, review it before replacing it.
 
@@ -39,11 +52,13 @@ New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
 Copy-Item -Recurse .\skills\readme-atlas "$HOME\.agents\skills\"
 ```
 
-For a repository-scoped installation, copy the folder to that project's `.agents/skills/readme-atlas` instead. These are [Codex's documented skill locations](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills). If the skill does not appear, restart Codex.
+For a repository-scoped installation, copy the folder to that project's `.agents/skills/readme-atlas` instead. `$HOME/.agents/skills` and `.agents/skills` are the shared agent skill locations used by the skills CLI and by Codex. If the skill does not appear, restart the agent.
+
+</details>
 
 ## First use
 
-Open the project whose README you want to work on in Codex and send:
+Open the project whose README you want to work on in your agent and send:
 
 ```text
 Use $readme-atlas to inspect this repository and write README.md.
@@ -125,7 +140,7 @@ This fixture is a manual illustration of the method, not an independent evaluati
 
 Visual guidance covers the opening, grouped badges, previews, spacing, navigation, and light/dark readability. Structure follows the project: a library needs an input/output example, a platform needs deployment choices, and a learning resource needs a starting route.
 
-The skill consists of Markdown instructions, references loaded as needed, and Codex UI metadata. Installation and invocation are documented for **Codex**. Other agents can read the instructions, but their installation and invocation behavior has not been verified here.
+The skill consists of Markdown instructions, references loaded as needed, and optional agent metadata (`agents/openai.yaml` for Codex). It is instruction-only: no scripting runtime, network access, or API key. Installation through the skills CLI and invocation were verified with Claude Code and Codex; any agent that can load a `SKILL.md` can use it, and the task prompts below are written to be agent-neutral.
 
 ## What we learned
 

@@ -3,3 +3,12 @@ __pycache__/
 .venv/
 .DS_Store
 Thumbs.db
+
+# Local working notes: not part of the published skill or its corpus.
+analysis/
+temp-*
+
+# Heavy media stays out of git history; release assets and the local copy cover it.
+promotion/video/*.mp4
+promotion/video/**/*.wav
+promotion/video/encode.log

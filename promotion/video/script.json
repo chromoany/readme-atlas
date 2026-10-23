@@ -1,0 +1,10 @@
+[
+  {"id":"01-intro","narration":"推荐一个专门写项目说明的开源技能。","subtitles":["推荐一个专门写项目说明的","开源 Skill"],"min_seconds":5.2},
+  {"id":"02-functions","narration":"新建、改写、审查、翻译，排版也一起整理。","subtitles":["新建、改写、审查、翻译","排版也一起整理"],"min_seconds":6.0},
+  {"id":"03-research","narration":"参考两百个项目，按领域整理写法，适配不同类型的仓库。","subtitles":["参考 200 个项目，按领域整理写法","适配不同类型的仓库"],"min_seconds":6.5},
+  {"id":"04-evidence","narration":"先检查项目，再组织内容。功能介绍和使用命令，都以仓库为依据。","subtitles":["先检查项目，再组织内容","功能介绍和使用命令，都以仓库为依据"],"min_seconds":7.0},
+  {"id":"05-example","narration":"运行命令和预期结果放在一起，第一次用也容易看懂。","subtitles":["运行命令和预期结果放在一起","第一次用也容易看懂"],"min_seconds":6.5},
+  {"id":"06-visual","narration":"首屏、徽章、配图和导航，都有专门的视觉指南。","subtitles":["首屏、徽章、配图和导航","都有专门的视觉指南"],"min_seconds":6.0},
+  {"id":"07-audience","narration":"准备开源、补齐文档，或者给旧说明重新排版，都可以试试。","subtitles":["准备开源、补齐文档","或者给旧说明重新排版，都可以试试"],"min_seconds":6.5},
+  {"id":"08-address","narration":"项目采用开放许可。地址就在画面里，感兴趣可以去看看。","subtitles":["项目采用 MIT 许可证","地址就在画面里，感兴趣可以去看看"],"min_seconds":7.0}
+]

@@ -1,0 +1,20 @@
+{
+  "name": "readme-atlas",
+  "displayName": "README Atlas",
+  "version": "0.1.0",
+  "description": "Write, rewrite, review, and translate repository READMEs from repository evidence. Every command, feature claim, and requirement must be traceable to the repository.",
+  "author": {
+    "name": "chromoany",
+    "url": "https://github.com/chromoany"
+  },
+  "homepage": "https://github.com/chromoany/readme-atlas",
+  "repository": "https://github.com/chromoany/readme-atlas",
+  "license": "MIT",
+  "keywords": [
+    "readme",
+    "documentation",
+    "agent-skill",
+    "claude-code",
+    "codex"
+  ]
+}

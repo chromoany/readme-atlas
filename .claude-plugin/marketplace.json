@@ -1,0 +1,15 @@
+{
+  "name": "readme-atlas",
+  "description": "README Atlas: an evidence-based agent skill for writing, reviewing, and translating repository READMEs.",
+  "owner": {
+    "name": "chromoany",
+    "url": "https://github.com/chromoany"
+  },
+  "plugins": [
+    {
+      "name": "readme-atlas",
+      "source": "./skills/readme-atlas",
+      "description": "Write, rewrite, review, and translate repository READMEs from repository evidence, with a working rule that every claim must be traceable to the repository."
+    }
+  ]
+}

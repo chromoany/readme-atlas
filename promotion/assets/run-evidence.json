@@ -1,0 +1,5 @@
+{
+  "command": "python examples/fixtures/log-slice/logslice.py examples/fixtures/log-slice/sample.log --level ERROR",
+  "stdout": "ERROR database unavailable\r\n",
+  "exitCode": 0
+}

@@ -9,15 +9,28 @@
 [English](README.md) · [简体中文](README.zh-CN.md)
 
 [![许可证：MIT](https://img.shields.io/badge/License-MIT-35b6bd?style=flat-square)](LICENSE)
-[![Codex agent skill](https://img.shields.io/badge/Codex-Agent%20Skill-35b6bd?style=flat-square)](skills/readme-atlas/SKILL.md)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-35b6bd?style=flat-square)](skills/readme-atlas/SKILL.md)
 
 </div>
 
 一个用于**新建、改写、审查和翻译项目 README** 的 agent skill。结合仓库实际内容与 200 个项目的研究，指导准确的内容、清晰的首次使用路线和协调的视觉呈现。
 
-[安装](#安装到-codex) · [第一次使用](#第一次使用) · [改写示例](#看一个改写示例) · [研究与边界](#研究与结论)
+它的工作准则是：**README 里的每一条命令、每一项功能声明、每一个环境要求，都必须能在仓库里找到出处。** 找不到出处的，删掉，而不是换个说法——这正是读者对 AI 生成的 README 抱怨最多的地方。
 
-## 安装到 Codex
+[安装](#安装) · [第一次使用](#第一次使用) · [改写示例](#看一个改写示例) · [研究与边界](#研究与结论)
+
+## 安装
+
+这个 skill 是纯 Markdown，不需要运行时、安装包或 API Key。用一条命令装进本机所有被检测到的 agent：
+
+```bash
+npx skills add chromoany/readme-atlas
+```
+
+它会把 skill 放到 `.agents/skills/readme-atlas`，并为检测到的 agent 建立链接（Claude Code、Codex、Cursor、GitHub Copilot、OpenCode 等）；[skills CLI](https://github.com/vercel-labs/skills) 支持 70 多个 agent。加 `--global` 是整机安装，加 `-a codex` 只装给某个 agent。
+
+<details>
+<summary>手动安装</summary>
 
 克隆仓库，然后把 **完整的** `skills/readme-atlas` 文件夹复制到用户技能目录。克隆需要 Git；使用 skill 不需要安装 Python 包、提供 API Key 或额外运行时依赖。如果目标技能目录已存在，请先检查再决定是否替换。
 
@@ -39,11 +52,13 @@ New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
 Copy-Item -Recurse .\skills\readme-atlas "$HOME\.agents\skills\"
 ```
 
-如果仅给一个项目使用，则复制到该项目的 `.agents/skills/readme-atlas`。这些路径来自 [Codex 官方技能文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。如果安装后没有出现，请重启 Codex。
+如果仅给一个项目使用，则复制到该项目的 `.agents/skills/readme-atlas`。`$HOME/.agents/skills` 与 `.agents/skills` 是 skills CLI 与 Codex 共用的 agent 技能目录。如果安装后没有出现，请重启对应的 agent。
+
+</details>
 
 ## 第一次使用
 
-在 Codex 中打开要编写 README 的项目，发送：
+在你使用的 agent 中打开要编写 README 的项目，发送：
 
 ```text
 使用 $readme-atlas，检查当前仓库并编写中文 README.md。
@@ -125,7 +140,7 @@ ERROR database unavailable
 
 视觉指南覆盖首屏、徽章集中排版、效果预览、留白、导航和深浅色可读性。结构跟着项目走：库需要输入输出示例，平台需要部署选择，学习资源需要阅读起点。
 
-skill 由 Markdown 指令、按需读取的参考资料和 Codex 界面元数据组成。目前提供 **Codex** 的安装与调用说明；其他 agent 可以阅读这些指令，但其安装与调用行为尚未在本项目验证。
+skill 由 Markdown 指令、按需读取的参考资料和可选的 agent 元数据（Codex 用 `agents/openai.yaml`）组成。它是纯指令形态：不含脚本运行时、不联网、不需要 API Key。安装（skills CLI）与调用已在 Claude Code 与 Codex 上验证；任何能加载 `SKILL.md` 的 agent 都可以使用，下方的任务提示也按 agent 无关的方式书写。
 
 ## 研究与结论
 
