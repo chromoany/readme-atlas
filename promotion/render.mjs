@@ -69,7 +69,7 @@ try {
     await page.locator('.figure').screenshot({path:path.join(here,'assets',name+'.png')});
     console.log('Rendered '+name);
   }
-  const markdown=read('zhihu-promotion.md').replaceAll('](promotion/assets/','](assets/');
+  const markdown=read('promotion/zhihu-article.md').replaceAll('](promotion/assets/','](assets/');
   const previewCSS=`*{box-sizing:border-box}body{margin:0;background:#f3f1eb;color:#252b29;font:18px/1.95 "Microsoft YaHei","Segoe UI",sans-serif}article{max-width:850px;padding:56px 66px 70px;margin:36px auto;background:#fff}h1{font-size:31px;line-height:1.55;margin:0 0 35px}h2{font-size:24px;margin:45px 0 22px;line-height:1.5}p{margin:20px 0}a{color:#17644e;text-underline-offset:4px}img{width:100%;height:auto;display:block;margin:28px 0 8px}p:has(>em:only-child){font-size:14px;line-height:1.8;color:#6a726e;margin-top:8px}pre{padding:22px;background:#f2f5f2;border-left:3px solid #2c6a53;font:14px/1.9 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}code{font-family:Consolas,monospace}p code{font-size:.88em;background:#f0f4ef;padding:2px 4px}@media(max-width:650px){body{font-size:17px}article{margin:0;padding:28px 20px}h1{font-size:26px}h2{font-size:22px}pre{font-size:12px;padding:16px}}`;
   fs.writeFileSync(path.join(here,'preview.html'),`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>README Atlas · 知乎文章预览</title><style>${previewCSS}</style></head><body><article>${marked.parse(markdown)}</article></body></html>`);
   for(const width of [1100,390]){
