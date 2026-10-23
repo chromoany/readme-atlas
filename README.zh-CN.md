@@ -10,6 +10,7 @@
 
 [![许可证：MIT](https://img.shields.io/badge/License-MIT-35b6bd?style=flat-square)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/Agent-Skill-35b6bd?style=flat-square)](skills/readme-atlas/SKILL.md)
+[![Install count](https://skills.sh/b/chromoany/readme-atlas)](https://skills.sh/chromoany/readme-atlas)
 
 </div>
 
